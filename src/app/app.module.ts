@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { RouletteComponent } from './roulette/roulette.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RecipesComponent,
-    ShoppingListComponent
+    ShoppingListComponent,
+    FooterComponent,
+    HeaderComponent,
+    RouletteComponent
   ],
   imports: [
     BrowserModule,
