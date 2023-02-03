@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+
+import { AppModule } from '../app.module';
 import { shoppingListTest } from '../shared/interfaces';
 
 @Component({
@@ -10,6 +12,7 @@ export class ShoppingListComponent implements OnInit {
   header?: string;
   isStrikethrough = false;
   ingredients?: shoppingListTest[];
+  isCollapsed = true;
 
   constructor() {}
 
