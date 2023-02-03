@@ -7,11 +7,15 @@
                 <th>Sillisalaatti</th>
             </tr>
         </thead>
-        <!-- <tr *ngFor="let indegrient of ingredients"> -->
+        <!-- <tr *ngFor="let ingredient of ingredients"> -->
         <tr>
-            <!-- <td {{ indegrient }}</td> -->
-            <td>Silliä</td>
+            <!-- <td {{ ingredient }}</td> -->
+            <td [ngClass]="{ 'text-decoration': isStrikethrough }">Silliä</td>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" [(ngModel)]="isStrikethrough">
+            </div>              
         </tr>
+
     </table>
     <button class="btn btn-info">Lähetä Sähköpostiin</button>
 </section>
