@@ -1,5 +1,5 @@
 .roulette {
-    background-color: #84C6DE;
+    background-color: #6CC8E1;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -28,5 +28,5 @@
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #84C6DE;
+    color: #6CC8E1;
 }
