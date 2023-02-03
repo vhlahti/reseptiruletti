@@ -1,0 +1,20 @@
+#recipe-name {
+    position: relative;
+    padding: 1rem;
+    border: solid 1rem #6CC8E1;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+figure {
+    flex-basis: 70%;
+    order: 1;
+}
+
+.recipe {
+    order: 2;
+    padding-left: 1rem;
+}
