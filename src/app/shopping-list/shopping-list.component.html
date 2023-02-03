@@ -4,17 +4,20 @@
         <thead>
             <tr>
                 <!-- <th  *ngFor="let header of headers">{{ header }}</th >-->
-                <th>Sillisalaatti</th>
+                <th>{{ header }}</th>
             </tr>
         </thead>
-        <!-- <tr *ngFor="let ingredient of ingredients"> -->
-        <tr>
-            <!-- <td {{ ingredient }}</td> -->
-            <td [ngClass]="{ 'text-decoration': isStrikethrough }">Silliä</td>
+       
+        
+        <!-- luo jokaiselle riville oman muuttujan: ingredient.isStrikethrough, joka mahdollistaa checkmarkin käyttämisen rivi kerrallaan  -->
+        <tr *ngFor="let ingredient of ingredients">
+            <td [ngClass]="{ 'strikethrough': ingredient.isStrikethrough }">{{ ingredient.name }}</td>
+        
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" [(ngModel)]="isStrikethrough">
-            </div>              
+                <input class="form-check-input" type="checkbox" [(ngModel)]="ingredient.isStrikethrough">
+            </div>
         </tr>
+       
 
     </table>
     <button class="btn btn-info">Lähetä Sähköpostiin</button>
