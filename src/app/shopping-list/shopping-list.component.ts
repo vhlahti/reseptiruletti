@@ -19,7 +19,7 @@ export class ShoppingListComponent implements OnInit {
       { name: '666 grammaa silliä', isStrikethrough: false},
       { name: '6 perunaa', isStrikethrough: false},
       { name: '0.6 sipulia', isStrikethrough: false},
-      
+      { name: '6 tl smetanaa', isStrikethrough: false}
   ];
   }
 }
