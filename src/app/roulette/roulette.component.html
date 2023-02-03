@@ -1,17 +1,14 @@
 <section class="roulette">
     <h1>Valitse ruokavalio</h1>
-    <section class="rouletteBoxes">
-    <input type="checkbox" id="checkMeat">
-    <p>Liha</p>
-    <input type="checkbox" id="checkFish">
-    <p>Kala</p>
-    <input type="checkbox" id="checkVege">
-    <p>Kasvis</p>
-    <input type="checkbox" id="checkVegan">
-    <p>Vegaaninen</p>
-    </section>
-    <button type="button" class="btn btn-light">
-        <fa-icon style="color:forestgreen;" [icon]="faClover"></fa-icon>
-        ruletti
-    </button>
+    <form action="" class="rouletteBoxes">
+        <input type="radio" id="checkMeat" name="roulette" value="1">
+        <label for="meat">Liha</label>
+        <input type="radio" id="checkFish" name="roulette" value="2">
+        <label for="meat">Kala</label>
+        <input type="radio" id="checkVege" name="roulette" value="3">
+        <label for="meat">Kasvis</label>
+        <input type="radio" id="checkVegan" name="roulette" value="4">
+        <label for="meat">Vegaaninen</label>
+    </form>
+    <button type="button">ruletti</button>
 </section>
