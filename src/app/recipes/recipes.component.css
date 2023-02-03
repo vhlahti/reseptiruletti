@@ -6,15 +6,22 @@
 
 .container {
     display: flex;
-    justify-content: left;
 }
 
 figure {
-    flex-basis: 70%;
     order: 1;
+    object-position: left;
 }
+
+/*img {
+    width: 100%;
+    height: auto;}*/
 
 .recipe {
     order: 2;
     padding-left: 1rem;
+}
+
+h2 {
+    color: #6CC8E1;
 }
