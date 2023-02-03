@@ -1,6 +1,27 @@
 .footer {
     margin-top: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     background-color: #59595B;
     color: white;
+}
+h4 {
+    font-size: 1.2rem;
+}
+p {
+    font-size: .6rem;
+}
+li {
+    list-style: none;
+    text-align: start;
+    line-height: 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: .7rem;
+}
+a:hover {
+    color: lightblue;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #000;   
 }
