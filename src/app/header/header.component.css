@@ -1,0 +1,13 @@
+.bg-image {
+    background-image: url("/assets/images/headerbg.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px #000000;
+}
