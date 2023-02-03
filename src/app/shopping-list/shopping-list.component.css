@@ -6,13 +6,32 @@ button {
     background-color: #84c6de;
 }
 
-table tr {
-    padding: 25px;
+.wrapper {
+    background-color: #59595b;
 }
-.container {
-    padding: 25px 0 0 25px;
-    max-width: 500px;
+.main {
+    padding: 25px 0;
+    max-width: 400px;
     margin: auto;
 }
-
-  
+table td, th {
+    color: white;
+}
+table td {
+    padding-top: 5px;
+}
+table th {
+    text-decoration: none;
+}
+.form-check{
+    padding-top: 5px;
+}
+.main h1 {
+    color: #84c6de;
+}
+.form-check-input {
+    background-color: #84c6de;
+}
+.btn {
+    margin: 25px 0 15px;
+}
