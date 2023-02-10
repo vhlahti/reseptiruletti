@@ -3,11 +3,11 @@
 }
 
 button {
-    background-color: #84c6de;
+    background-color: white;
 }
 
 .wrapper {
-    background-color: #59595b;
+    background-color: white;
 }
 .main {
     padding: 25px 0 25px 25px;
@@ -15,7 +15,7 @@ button {
     margin: auto;
 }
 table td, th {
-    color: white;
+    color: black;
 }
 table td {
     padding-top: 5px;
@@ -26,9 +26,7 @@ table th {
 .form-check{
     padding-top: 5px;
 }
-.main h1 {
-    color: #84c6de;
-}
+
 .form-check-input {
     background-color: #84c6de;
 }
