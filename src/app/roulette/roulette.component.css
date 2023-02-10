@@ -1,28 +1,21 @@
 .roulette {
     background-color: #6CC8E1;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+    display: grid;
+    justify-content: center;
 }
 .roulette h1 {
-    font-size: 1.2rem;
     text-align: center;
-    margin-top: 1rem;
+    margin: 0.5rem 0rem 0rem 0rem;
 }
 .rouletteBoxes {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    margin: 0.5rem;
 }
-.rouletteBoxes > * {
-    flex-basis: 0;
-    flex-grow: 1;
-}
-.rouletteBoxes p {
-    margin: auto;
+.rouletteButton {
+    display: flex;
+    justify-content: center;
 }
 .roulette button {
-    display: inline-block;
-    margin: auto;
-    margin-top: 0.2rem;
+    max-width: 100px;
 }

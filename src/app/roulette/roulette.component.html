@@ -1,14 +1,12 @@
 <section class="roulette">
     <h1>Valitse ruokavalio</h1>
-    <form action="" class="rouletteBoxes">
-        <input type="radio" id="checkMeat" name="roulette" value="1">
-        <label for="meat">Liha</label>
-        <input type="radio" id="checkFish" name="roulette" value="2">
-        <label for="meat">Kala</label>
-        <input type="radio" id="checkVege" name="roulette" value="3">
-        <label for="meat">Kasvis</label>
-        <input type="radio" id="checkVegan" name="roulette" value="4">
-        <label for="meat">Vegaaninen</label>
-    </form>
-    <button type="button" class="btn btn-danger btn-lg">Ruletti</button>
+    <mat-radio-group class="rouletteBoxes" aria-label="Select an option">
+        <mat-radio-button value="1" id="checkMeat">Liha</mat-radio-button>
+        <mat-radio-button value="2" id="checkFish">Kala</mat-radio-button>
+        <mat-radio-button value="3" id="checkVege">Kasvis</mat-radio-button>
+        <mat-radio-button value="4" id="checkVegan">Vegaaninen</mat-radio-button>
+    </mat-radio-group>
+    <section class="rouletteButton">
+    <button mat-raised-button color="accent">Ruletti</button>
+    </section>
 </section>
