@@ -25,3 +25,8 @@ figure {
 h2 {
     color: #6CC8E1;
 }
+
+.ostoslista-btn {
+    text-align: center; 
+    margin: 2rem 0 1rem; 
+}
