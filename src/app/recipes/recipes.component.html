@@ -12,6 +12,9 @@
       </section>
     </section>
     <section class="ostoslista-btn">
-        <button type="button" class="btn btn-danger btn-lg">Tee ostoslista</button>   
+        <button mat-raised-button color="accent" 
+        (click)="onShowShoppingList()">Tee ostoslista</button>   
     </section>
+
   </article>
+  <app-shopping-list *ngIf="showShoppingList"></app-shopping-list>

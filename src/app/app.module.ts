@@ -27,11 +27,11 @@ import { MatButtonModule } from '@angular/material/button';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
     MatRadioModule,
-    MatButtonModule
+    MatButtonModule,
+    ReactiveFormsModule
   ],
   providers: [{
     provide: MAT_RADIO_DEFAULT_OPTIONS,

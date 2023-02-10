@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { shoppingListTest } from '../shared/interfaces';
 
 @Component({
-  selector: 'app-shopping-list, app-strikethrough',
+  selector: 'app-shopping-list',
   templateUrl: './shopping-list.component.html',
   styleUrls: ['./shopping-list.component.css']
 })
@@ -12,7 +12,8 @@ export class ShoppingListComponent implements OnInit {
   isStrikethrough = false;
   ingredients?: shoppingListTest[];
 
-  constructor() {}
+  constructor() {
+  }
 
   ngOnInit(): void {
     this.header = 'Sillisalaatti'
