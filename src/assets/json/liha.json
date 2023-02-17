@@ -1,0 +1,30 @@
+[
+    {
+    "id" : 101,
+    "name" : "Kinkkukiusaus",
+    "ohje" : "Voitele uunivuoka ja kaada perunasipulisekoitus, kinkkusuikaleet sekä juustoraaste vuokaan. Halutessasi voit säästää osan juustoraasteesta pinnalle ripoteltavaksi. Sekoita ainekset keskenään. Sekoita kerma ja mausteet keskenään ja kaada sitten seos tasaisesti vuokaan. Paista uunissa 200 asteessa noin 60-90min, uunista riippuen.",
+    "valmistusaika" : "70-100min",
+    "ainekset" : ["500g perunasipulisekoitus", "250g kinkkusuikaleita", "4,5dl ruokakermaa", "2dl juustoraastetta", "suolaa", "mustapippuria", "voita uunivuuan voiteluun"]
+  },
+  {
+    "id" : 102,
+    "name" : "Makkarakeitto",
+    "ohje" : "Kuori ja pilko perunat, keitä runsaassa vedessä noin 20min. Lisää joukkoon lihaliemikuutio, keittojuurekset sekä pilkottu HK:n sininen. Halutessasi lisää mausteita kuten maustepippuria, paprikajauhetta sekä chiliä oman maun mukaan.",
+    "valmistusaika" : "30min",
+    "ainekset" : ["1pkt HK: sininen lenkki", "500g perunoita", "2pss keittojuureksia (pakaste)", "1kpl lihaliemikuutio", "mausteita oman maun mukaan"]
+  },
+  {
+    "id" : 103,
+    "name" : "Kanakastike ja riisi",
+    "ohje" : "Pilko sipulit ja kuullota pannulla. Lisää pannulle kanat, paista kypsäksi. Lisää joukkoon kerma ja jätä miedolla lämmöllä porisemaan. Kuutioi paprika ja ananas sekä valmista riisi pakkauksen ohjeen mukaan. Lisää kastikkeen joukkoon kanaliemikuutio, pilkottu paprika sekä ananaspalat. Halutessasi voit lisätä hieman ananasten mehua sekä muita mausteita kastikkeeseen makua antamaan. Anna kastikkeen tekeytyä kunnes koostumus on sopiva. Viimeisenä lisää kastikkeeseen fetakuutiot, sekoita kunnolla ja valmista on. Tarjoile kastike riisin kanssa.",
+    "valmistusaika" : "30-60min",
+    "ainekset" : ["500g kanasuikaleita", " 1kpl sipuli", "1kpl punainen paprika", "1kpl kanaliemikuutio", "1tlk ananasta omassa mehussa", "200g fetaa", "5dl ruokakermaa", "3dl riisiä"]
+  },
+  {
+    "id" : 104,
+    "name" : "Kermainen kanapasta",
+    "ohje" : "Laita pasta kiehumaan paketin ohjeiden mukaan. Ruskista kanat ja valkosipulit. Mausta suolalla ja pippureilla. Lisää kerma ja murustettu aurajuusto. Anna hautua niin että aurajuusto sulaa kerman joukkoon. Sekoita valmis kastike ja pasta keskenään.",
+    "valmistusaika" : "15min",
+    "ainekset" : ["400g broilerin filesuikaleita", "3dl ruokakermaa", "1pkt aurajuustoa", "2-4 valkosipulinkynttä", "suolaa", "maustepippuria", "pastaa pussin ohjeen mukaan 4:lle hengelle"]
+  }
+]

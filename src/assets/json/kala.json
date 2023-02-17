@@ -1,0 +1,23 @@
+[
+    {
+      "id" : 201,
+      "name" : "Uunilohi",
+      "ohje" : "Varmista että kalassa ei ole ruotoja. Laita kala uunivuokaan, lisää sitruunaviipaleita ja tilliä päälle, paista 200 asteen uunissa noin 25min. Kalan paistuessa valmista kalalle kastike sekoittamalla kermaviili, sinappi, pippuri, sitruunamehu ja ripaus tilliä. Tarjoile uunilohi esimerkiksi perunamuusin sekä vihersalaatin kera.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["1kg lohta", "1 sitruuna", "tilliä", "1prk kermaviiliä", "1tl sinappia", "sitruunapippuria", "sitruunamehua"]
+    },
+    {
+      "id": 202,
+      "name" : "Tonnikalapihvit",
+      "ohje" : "Mittaa kermaviili pieneen taikinakulhoon ja sekoita korppujauho sekaan. Anna turvota ja mausta. Valuta tonnikalat, sekoita massaan ja lisää kananmunat. Jos taikina on liian juoksevaa, lisää korppujauhoja. Paista uunin keskitasolla n.200-225 asteessa, kunnes pinnassa on kaunis väri ja pihvit ovat ns. kimmoisia. Tarjoile muusin tai uusien perunoiden kanssa. Kermaviilin jämästä saat oivan kylmäkastikkeen, kun lisäät siihen ruohosipulia ja tilliä.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["2prk tonnikalaa vedessä", "4rkl kermaviiliä", "0,5-1dl korppujauhoja", "2tl sitruunapippuria", "1-2 kananmunaa", "mausteita oman maun mukaan"]
+    },
+    {
+      "id": 203,
+      "name" : "Tonnikalarisotto",
+      "ohje" : "Kuullota riisi pannulla ja lisää mausteet. Lisää vettä desi kerrallaan koko ajan sekoittaen, kun edellinen desi on melkein imeytynyt riisiin lisää seuraava. Tarkkaile risoton koostumusta ja lisää vettä sen mukaan. Lopuksi lisää herne-maissi-paprika ja tonnikala. Sekoita kunnolla ja tarjoile heti!",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["1prk tonnikalaa öljyssä", "2dl risottoriisiä", "noin 5dl vettä", "1ps herne-maissi-paprikaa", "mausteita oman maun mukaan"]
+    }
+  ]

@@ -1,0 +1,104 @@
+{
+  "liha" : [
+    {
+      "id" : 101,
+      "name" : "Kinkkukiusaus",
+      "ohje" : "Voitele uunivuoka ja kaada perunasipulisekoitus, kinkkusuikaleet sekä juustoraaste vuokaan. Halutessasi voit säästää osan juustoraasteesta pinnalle ripoteltavaksi. Sekoita ainekset keskenään. Sekoita kerma ja mausteet keskenään ja kaada sitten seos tasaisesti vuokaan. Paista uunissa 200 asteessa noin 60-90min, uunista riippuen.",
+      "valmistusaika" : "70-100min",
+      "ainekset" : ["500g perunasipulisekoitus", "250g kinkkusuikaleita", "4,5dl ruokakermaa", "2dl juustoraastetta", "suolaa", "mustapippuria", "voita uunivuuan voiteluun"]
+    },
+    {
+      "id" : 102,
+      "name" : "Makkarakeitto",
+      "ohje" : "Kuori ja pilko perunat, keitä runsaassa vedessä noin 20min. Lisää joukkoon lihaliemikuutio, keittojuurekset sekä pilkottu HK:n sininen. Halutessasi lisää mausteita kuten maustepippuria, paprikajauhetta sekä chiliä oman maun mukaan.",
+      "valmistusaika" : "30min",
+      "ainekset" : ["1pkt HK: sininen lenkki", "500g perunoita", "2pss keittojuureksia (pakaste)", "1kpl lihaliemikuutio", "mausteita oman maun mukaan"]
+    },
+    {
+      "id" : 103,
+      "name" : "Kanakastike ja riisi",
+      "ohje" : "Pilko sipulit ja kuullota pannulla. Lisää pannulle kanat, paista kypsäksi. Lisää joukkoon kerma ja jätä miedolla lämmöllä porisemaan. Kuutioi paprika ja ananas sekä valmista riisi pakkauksen ohjeen mukaan. Lisää kastikkeen joukkoon kanaliemikuutio, pilkottu paprika sekä ananaspalat. Halutessasi voit lisätä hieman ananasten mehua sekä muita mausteita kastikkeeseen makua antamaan. Anna kastikkeen tekeytyä kunnes koostumus on sopiva. Viimeisenä lisää kastikkeeseen fetakuutiot, sekoita kunnolla ja valmista on. Tarjoile kastike riisin kanssa.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["500g kanasuikaleita", " 1kpl sipuli", "1kpl punainen paprika", "1kpl kanaliemikuutio", "1tlk ananasta omassa mehussa", "200g fetaa", "5dl ruokakermaa", "3dl riisiä"]
+    },
+    {
+      "id" : 104,
+      "name" : "Kermainen kanapasta",
+      "ohje" : "Laita pasta kiehumaan paketin ohjeiden mukaan. Ruskista kanat ja valkosipulit. Mausta suolalla ja pippureilla. Lisää kerma ja murustettu aurajuusto. Anna hautua niin että aurajuusto sulaa kerman joukkoon. Sekoita valmis kastike ja pasta keskenään.",
+      "valmistusaika" : "15min",
+      "ainekset" : ["400g broilerin filesuikaleita", "3dl ruokakermaa", "1pkt aurajuustoa", "2-4 valkosipulinkynttä", "suolaa", "maustepippuria", "pastaa pussin ohjeen mukaan 4:lle hengelle"]
+    }
+  ],
+
+  "kala" : [
+    {
+      "id" : 201,
+      "name" : "Uunilohi",
+      "ohje" : "Varmista että kalassa ei ole ruotoja. Laita kala uunivuokaan, lisää sitruunaviipaleita ja tilliä päälle, paista 200 asteen uunissa noin 25min. Kalan paistuessa valmista kalalle kastike sekoittamalla kermaviili, sinappi, pippuri, sitruunamehu ja ripaus tilliä. Tarjoile uunilohi esimerkiksi perunamuusin sekä vihersalaatin kera.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["1kg lohta", "1 sitruuna", "tilliä", "1prk kermaviiliä", "1tl sinappia", "sitruunapippuria", "sitruunamehua"]
+    },
+    {
+      "id": 202,
+      "name" : "Tonnikalapihvit",
+      "ohje" : "Mittaa kermaviili pieneen taikinakulhoon ja sekoita korppujauho sekaan. Anna turvota ja mausta. Valuta tonnikalat, sekoita massaan ja lisää kananmunat. Jos taikina on liian juoksevaa, lisää korppujauhoja. Paista uunin keskitasolla n.200-225 asteessa, kunnes pinnassa on kaunis väri ja pihvit ovat ns. kimmoisia. Tarjoile muusin tai uusien perunoiden kanssa. Kermaviilin jämästä saat oivan kylmäkastikkeen, kun lisäät siihen ruohosipulia ja tilliä.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["2prk tonnikalaa vedessä", "4rkl kermaviiliä", "0,5-1dl korppujauhoja", "2tl sitruunapippuria", "1-2 kananmunaa", "mausteita oman maun mukaan"]
+    },
+    {
+      "id": 203,
+      "name" : "Tonnikalarisotto",
+      "ohje" : "Kuullota riisi pannulla ja lisää mausteet. Lisää vettä desi kerrallaan koko ajan sekoittaen, kun edellinen desi on melkein imeytynyt riisiin lisää seuraava. Tarkkaile risoton koostumusta ja lisää vettä sen mukaan. Lopuksi lisää herne-maissi-paprika ja tonnikala. Sekoita kunnolla ja tarjoile heti!",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["1prk tonnikalaa öljyssä", "2dl risottoriisiä", "noin 5dl vettä", "1ps herne-maissi-paprikaa", "mausteita oman maun mukaan"]
+    }
+  ],
+
+  "kasvis" : [
+    {
+      "id" : 301,
+      "name" : "Kanttarellikastike",
+      "ohje" : "Pidä puhtaita sieniä kuumalla pannulla kunnes neste haihtuu. Lisää voi ja sipuli hienonnettuna. Kypsennä hetki. Lisää vehnäjauhot ja kerma ja sekoita tasaiseksi. Kypsennä hetki vielä ja sekoita tasaiseksi. Tarjoile esimerkiksi keitettyjen perunoiden kanssa.",
+      "valmistusaika" : "15min",
+      "ainekset" : ["1l tuoreita kanttarelleja", "2rkl voita", "1 sipuli", "3rkl vehnäjauhoja", "1,5dl ruokakermaa", "suolaa ja pippuria"]
+    },
+    {
+      "id" : 302,
+      "name" : "Kasvislasagne",
+      "ohje" : "Levitä voidellun suorakaiteisen vuoan pohjalle juustokastiketta, tämän päälle lasagnelevyjä ja lopuksi 1/3 tai 1/4 osa tomaattikastiketta. Jatka kokoamista samassa järjestyksessä, kolme tai neljä kerrosta. Lopuksi ripottele pinnalle juustoraastetta. Paista lasagnea 200 asteessa 30-40 minuuttia. Tarjoa tuoreiden kasvisten ja vaikkapa raejuuston kanssa.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["lasagnelevyjä", "tomaattikastike", "juustokastike", "juustoraastetta"]
+    },
+    {
+      "id" : 303,
+      "name" : "Pinaattikeitto",
+      "ohje" : "Sulata rasva paksupohjaisessa kattilassa. Lisää vehnäjauhot ja sekoita hetken, älä anna ruskistua. Lisää maito koko ajan sekoittaen. Anna kiehahtaa. Lisää pinaatti ja anna kiehua hetken hiljalleen. Tarjoa keitettyjen kananmunan puolikkaiden kera.",
+      "valmistusaika" : "15-30min",
+      "ainekset" : ["3rkl voita", "0,75dl vehnäjauhoja", "1l maitoa", "150g pakastepinaattia", "1tl suolaa", "kananmunia"]
+    }
+  ],
+
+  "vege" : [
+    {
+      "id" : 401,
+      "name" : "Linssikeitto",
+      "ohje" : "Kuullota pilkottu sipuli öljyssä ja sirottele paprikapulveri sekaan. Sekoittele. Sipulin ei tarvitse ruskistua vaan saada vain hieman väriä. Kuori perunat ja pilko pieniksi paloiksi. Lisää kaikki ainekset ja keitä kannen alla n. 35min. Tarjoile sopan kanssa leipää ja juustoa. Sitruunasiivuista saat kivaa makua soppaan.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["1 sipuli", "2 valkosipulinkynttä",	"2rkl öljyä", "1tl paprikaa (jauhettua)", "3dl linssejä (punaisia tai vihreitä)", "1,25l vettä", "1 kasvisliemikuutio", "2 perunaa", "2rkl tomaattipyrettä", "1tl suolaa"]
+    },
+    {
+      "id" : 402,
+      "name" : "Marokkolainen kasvispata",
+      "ohje" : "Kuori ja kuutioi bataatti. Pilko valkosipuli ja herkkusienet haluamasi kokoisiksi paloiksi. Pannulle loraus öljyä, valkosipulit hetkeksi tirisemään. Hetken päästä lisää herkkusienet, pyörittele tovi. Lisää tomaattimurska, bataatit, rusinat ja mausteet. Tässä vaiheessa kannattaa lisätä myös vettä, jos haluaa kastikemaisempaa. Anna muhia hetken. Tämän jälkeen lisää kikherneet. Makua tulee lisää kun murskaat sekaan kasvisliemikuution ja annat muhia. Ruoka on valmista kun bataatit ovat miellyttävän pehmeitä. Kannattaa maustaa mielivaltaisesti ja runsaalla kädellä. Tarjoile esimerkiksi riisin kanssa.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["1kpl bataatti", "1prk tomaattimurskaa", "1tlk kikherneitä", "1tlk herkkusieniä", "rusinoiata", "4 kynttä valkosipulia", "3tl garam masalaa", "öljyä", "1 kasvisliemikuutio"]
+    },
+    {
+      "id" : 403,
+      "name" : "Oliivi-tomaatti-nyhtis-uunivuoka",
+      "ohje" : "Laita uuni kuumenemaan n. 225 asteeseen. Levitä reilusti oliiviöljyä ison uunivuoan pohjalle. Ripottele öljyn päälle riisit ja nyhtökaurat. Lisää mausteet ja vesi. Laita vuoka uuniin n. puoleksi tunniksi, jonka aikana veden pitäisi haihtua noin puoleen. Ota vuoka uunista lisätäksesi pinnalle tomaatit ja oliivit kokonaisina. Voit valuttaa vielä oliiviöljyä varsinkin tomaattien pintaan. Laita vuoka vielä uuniin noin puoleksi tunniksi, tai kunnes loppu vesi on haihtunut ja tomaatit ovat hieman ruskistuneet.",
+      "valmistusaika" : "60-90min",
+      "ainekset" : ["2-3dl riisiä", "7-9dl vettä", "250g nyhtökauraa", "1prk oliiveja", "2rasiaa kirsikkatomaatteja", "1dl oliiviöljyä", "mausteita oman maun mukaan"]
+    }
+  ]
+}
