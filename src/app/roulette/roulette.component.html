@@ -1,14 +1,19 @@
 <section class="roulette">
-    <h1>Valitse ruokavalio</h1>
-    <mat-radio-group class="rouletteBoxes" aria-label="Select an option">
-        <mat-radio-button value="1" id="checkMeat">Liha</mat-radio-button>
-        <mat-radio-button value="2" id="checkFish">Kala</mat-radio-button>
-        <mat-radio-button value="3" id="checkVege">Kasvis</mat-radio-button>
-        <mat-radio-button value="4" id="checkVegan">Vegaaninen</mat-radio-button>
-    </mat-radio-group>
-    <section class="rouletteButton">
-    <button mat-raised-button color="accent">Ruletti</button>
-    </section>
+  <h1>Valitse ruokavalio</h1>
+  <form [formGroup]="rouletteForm" (ngSubmit)="onSubmit()">
+  <mat-radio-group class="rouletteBoxes" aria-label="Select an option">
+      <mat-radio-button formControlName="roulette" value="meat">Liha</mat-radio-button>
+      <mat-radio-button formControlName="roulette" value="fish">Kala</mat-radio-button>
+      <mat-radio-button formControlName="roulette" value="vege">Kasvis</mat-radio-button>
+      <mat-radio-button formControlName="roulette" value="vegan">Vegaaninen</mat-radio-button>
+  </mat-radio-group>
+  <section class="rouletteButton">
+  <button
+  mat-raised-button color="accent"
+  type="submit"
+  >Ruletti</button>
+  </section>
+  </form>
 
      <!--
     <article id="recipe-name">

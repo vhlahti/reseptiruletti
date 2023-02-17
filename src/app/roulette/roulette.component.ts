@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faClover } from '@fortawesome/free-solid-svg-icons';
+import { FormGroup, FormControl } from '@angular/forms';
 import recipeData from 'src/assets/json/testi.json';
 
 interface Recipe {
@@ -17,7 +17,20 @@ interface Recipe {
   styleUrls: ['./roulette.component.css']
 })
 export class RouletteComponent {
-  faClover = faClover;
+
+  // form handler
+
+  rouletteForm = new FormGroup({
+    roulette: new FormControl('')
+  });
+
+  // button handler
+
+  onSubmit() {
+  console.warn(this.rouletteForm.value);
+  }
+
+  // recipe data
 
   recipes: Recipe[] = recipeData;
   //lisää filtteri ruokavalion mukaan
