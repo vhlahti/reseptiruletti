@@ -32,6 +32,23 @@ export class RouletteComponent {
 
   onSubmit() {
   console.log(this.rouletteForm.value);
+
+  if (this.rouletteForm.value.roulette === 'meat')
+  {
+    console.log('Liha!');
+  }
+  if (this.rouletteForm.value.roulette === 'fish')
+  {
+    console.log('Kala!');
+  }
+  if (this.rouletteForm.value.roulette === 'vege')
+  {
+    console.log('Vege!');
+  }
+  if (this.rouletteForm.value.roulette === 'vegan')
+  {
+    console.log('Vegan!');
+  }
   }
 
   // recipe data
