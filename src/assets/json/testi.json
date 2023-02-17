@@ -1,0 +1,11 @@
+[
+    {
+    "id" : 101,
+    "name" : "Kinkkukiusaus",
+    "ruokavalio" : "liha",
+    "ohje" : "Voitele uunivuoka ja kaada perunasipulisekoitus, kinkkusuikaleet sekä juustoraaste vuokaan. Halutessasi voit säästää osan juustoraasteesta pinnalle ripoteltavaksi. Sekoita ainekset keskenään. Sekoita kerma ja mausteet keskenään ja kaada sitten seos tasaisesti vuokaan. Paista uunissa 200 asteessa noin 60-90min, uunista riippuen.",
+    "valmistusaika" : "70-100min",
+    "ainekset" : ["500g perunasipulisekoitus", "250g kinkkusuikaleita", "4,5dl ruokakermaa", "2dl juustoraastetta", "suolaa", "mustapippuria", "voita uunivuuan voiteluun"]
+  }
+]
+  
