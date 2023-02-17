@@ -1,18 +1,28 @@
 <section class="roulette">
   <h1>Valitse ruokavalio</h1>
   <form [formGroup]="rouletteForm" (ngSubmit)="onSubmit()">
-  <mat-radio-group class="rouletteBoxes" aria-label="Select an option">
-      <mat-radio-button formControlName="roulette" value="meat">Liha</mat-radio-button>
-      <mat-radio-button formControlName="roulette" value="fish">Kala</mat-radio-button>
-      <mat-radio-button formControlName="roulette" value="vege">Kasvis</mat-radio-button>
-      <mat-radio-button formControlName="roulette" value="vegan">Vegaaninen</mat-radio-button>
-  </mat-radio-group>
+  <article class="rouletteBoxes">
+    <input type="radio" value="meat" formControlName="roulette"><span>Liha</span>
+    <input type="radio" value="fish" formControlName="roulette"><span>Kala</span>
+    <input type="radio" value="vege" formControlName="roulette"><span>Kasvis</span>
+    <input type="radio" value="vegan" formControlName="roulette"><span>Vegaaninen</span>
+  </article>
+
+  <!-- Angular material versio --> 
+  <!-- <mat-radio-group class="rouletteBoxes" aria-label="Valitse vaihtoehto">
+      <mat-radio-button name="roulette" formControlName="roulette" value="meat">Liha</mat-radio-button>
+      <mat-radio-button name="roulette" formControlName="roulette" value="fish">Kala</mat-radio-button>
+      <mat-radio-button name="roulette" formControlName="roulette" value="vege">Kasvis</mat-radio-button>
+      <mat-radio-button name="roulette" formControlName="roulette" value="vegan">Vegaaninen</mat-radio-button>
+  </mat-radio-group> -->
+
   <section class="rouletteButton">
   <button
   mat-raised-button color="accent"
   type="submit"
   >Ruletti</button>
   </section>
+
   </form>
 
      <!--

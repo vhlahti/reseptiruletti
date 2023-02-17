@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import recipeData from 'src/assets/json/testi.json';
 
 interface Recipe {
@@ -20,14 +20,18 @@ export class RouletteComponent {
 
   // form handler
 
-  rouletteForm = new FormGroup({
-    roulette: new FormControl('')
-  });
+  rouletteForm: FormGroup;
+
+  constructor(public fb: FormBuilder) {
+    this.rouletteForm = fb.group({
+      roulette: ['', Validators.required]
+    });
+  }
 
   // button handler
 
   onSubmit() {
-  console.warn(this.rouletteForm.value);
+  console.log(this.rouletteForm.value);
   }
 
   // recipe data
