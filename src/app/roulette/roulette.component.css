@@ -8,9 +8,10 @@
     margin: 0.5rem 0rem 0rem 0rem;
 }
 .rouletteBoxes {
-    display: flex;
-    flex-direction: row;
-    margin: 0.5rem;
+    padding: 1rem;
+}
+label {
+    font-size: 1.0rem;
 }
 .rouletteButton {
     display: flex;

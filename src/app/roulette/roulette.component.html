@@ -1,20 +1,26 @@
 <section class="roulette">
+
   <h1>Valitse ruokavalio</h1>
+
   <form [formGroup]="rouletteForm" (ngSubmit)="onSubmit()">
   <article class="rouletteBoxes">
-    <input type="radio" value="meat" formControlName="roulette"><span>Liha</span>
-    <input type="radio" value="fish" formControlName="roulette"><span>Kala</span>
-    <input type="radio" value="vege" formControlName="roulette"><span>Kasvis</span>
-    <input type="radio" value="vegan" formControlName="roulette"><span>Vegaaninen</span>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="meat" id="meat" formControlName="roulette">
+    <label class="form-check-label" for="meat">Liha</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="fish" id="fish" formControlName="roulette">
+    <label class="form-check-label" for="fish">Kala</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="vege" id="vege" formControlName="roulette">
+    <label class="form-check-label" for="vege">Kasvis</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="vegan" id="vegan" formControlName="roulette">
+    <label class="form-check-label" for="vegan">Vegaaninen</label>
+    </div>
   </article>
-
-  <!-- Angular material versio --> 
-  <!-- <mat-radio-group class="rouletteBoxes" aria-label="Valitse vaihtoehto">
-      <mat-radio-button name="roulette" formControlName="roulette" value="meat">Liha</mat-radio-button>
-      <mat-radio-button name="roulette" formControlName="roulette" value="fish">Kala</mat-radio-button>
-      <mat-radio-button name="roulette" formControlName="roulette" value="vege">Kasvis</mat-radio-button>
-      <mat-radio-button name="roulette" formControlName="roulette" value="vegan">Vegaaninen</mat-radio-button>
-  </mat-radio-group> -->
 
   <section class="rouletteButton">
   <button
@@ -48,9 +54,9 @@
       </article>
       -->
 
-<p *ngFor="let recipe of recipes">
+<!-- <p *ngFor="let recipe of recipes">
   Ruokana tänään: {{ recipe.name }} <br>
   Resepti: {{ recipe.ohje }}
-</p>
+</p> -->
 
 </section>
