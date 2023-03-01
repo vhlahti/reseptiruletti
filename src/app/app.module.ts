@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -11,8 +12,8 @@ import { RouletteComponent } from './roulette/roulette.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatRadioModule, MAT_RADIO_DEFAULT_OPTIONS } from '@angular/material/radio';
 import { MatButtonModule } from '@angular/material/button';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -29,14 +30,11 @@ import { MatButtonModule } from '@angular/material/button';
     FormsModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    MatRadioModule,
     MatButtonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [{
-    provide: MAT_RADIO_DEFAULT_OPTIONS,
-    useValue: { color: 'accent' },
-}],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

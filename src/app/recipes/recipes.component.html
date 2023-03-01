@@ -1,3 +1,4 @@
+<div *ngFor="let recipe of (recipes | async)">
 <article id="recipe-name">
     <h1>Tänään syödään: </h1>
     <section class="container">
@@ -5,10 +6,10 @@
         <img src="https://source.unsplash.com/100x100/?food" alt="kuva ateriasta"/>
       </figure>
       <section class="recipe">
-        <h2>Ruoan nimi</h2>
+        <h2>{{ recipe.name }}</h2> <!-- Ruoan nimi tähän -->
       <hr>
       <h5>Resepti: </h5>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo deserunt nostrum similique molestias est quidem at! Earum ipsam amet, expedita suscipit sint laboriosam itaque consectetur aperiam quisquam necessitatibus eius ut incidunt impedit veniam odio, maxime tempore id non facilis unde nobis cum! Id eaque nobis perspiciatis voluptatem alias molestias quasi.</p>
+        <p>{{ recipe.ohje }}</p> <!-- Resepti tähän -->
       </section>
     </section>
     <section class="ostoslista-btn">
@@ -17,4 +18,6 @@
     </section>
 
   </article>
-  <app-shopping-list *ngIf="showShoppingList"></app-shopping-list>
+</div>
+
+<app-shopping-list *ngIf="showShoppingList"></app-shopping-list>
