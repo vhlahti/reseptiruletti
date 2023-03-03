@@ -3,7 +3,7 @@
     <h1>Tänään syödään: </h1>
     <section class="container">
       <figure>
-        <img src="https://source.unsplash.com/100x100/?food" alt="kuva ateriasta"/>
+        <img src="{{ 'assets/images/foodimg/' + recipe.id + '.jpeg' }}" alt="kuva ateriasta"/>
       </figure>
       <section class="recipe">
         <h2>{{ recipe.name }}</h2> <!-- Ruoan nimi tähän -->
