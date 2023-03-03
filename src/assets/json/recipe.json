@@ -2,6 +2,7 @@
     {
       "id" : 101,
       "name" : "Kinkkukiusaus",
+      "imageUrl": "images/foodimg/101.jpeg",
       "ruokavalio" : "liha",
       "ohje" : "Voitele uunivuoka ja kaada perunasipulisekoitus, kinkkusuikaleet sekä juustoraaste vuokaan. Halutessasi voit säästää osan juustoraasteesta pinnalle ripoteltavaksi. Sekoita ainekset keskenään. Sekoita kerma ja mausteet keskenään ja kaada sitten seos tasaisesti vuokaan. Paista uunissa 200 asteessa noin 60-90min, uunista riippuen.",
       "valmistusaika" : "70-100min",
@@ -10,6 +11,7 @@
     {
       "id" : 102,
       "name" : "Makkarakeitto",
+      "imageUrl": "images/foodimg/102.jpeg",
       "ruokavalio" : "liha",
       "ohje" : "Kuori ja pilko perunat, keitä runsaassa vedessä noin 20min. Lisää joukkoon lihaliemikuutio, keittojuurekset sekä pilkottu HK:n sininen. Halutessasi lisää mausteita kuten maustepippuria, paprikajauhetta sekä chiliä oman maun mukaan.",
       "valmistusaika" : "30min",
@@ -18,6 +20,7 @@
     {
       "id" : 103,
       "name" : "Kanakastike ja riisi",
+      "imageUrl": "images/foodimg/103.jpeg",
       "ruokavalio" : "liha",
       "ohje" : "Pilko sipulit ja kuullota pannulla. Lisää pannulle kanat, paista kypsäksi. Lisää joukkoon kerma ja jätä miedolla lämmöllä porisemaan. Kuutioi paprika ja ananas sekä valmista riisi pakkauksen ohjeen mukaan. Lisää kastikkeen joukkoon kanaliemikuutio, pilkottu paprika sekä ananaspalat. Halutessasi voit lisätä hieman ananasten mehua sekä muita mausteita kastikkeeseen makua antamaan. Anna kastikkeen tekeytyä kunnes koostumus on sopiva. Viimeisenä lisää kastikkeeseen fetakuutiot, sekoita kunnolla ja valmista on. Tarjoile kastike riisin kanssa.",
       "valmistusaika" : "30-60min",
@@ -26,6 +29,7 @@
     {
       "id" : 104,
       "name" : "Kermainen kanapasta",
+      "imageUrl": "images/foodimg/104.jpeg",
       "ruokavalio" : "liha",
       "ohje" : "Laita pasta kiehumaan paketin ohjeiden mukaan. Ruskista kanat ja valkosipulit. Mausta suolalla ja pippureilla. Lisää kerma ja murustettu aurajuusto. Anna hautua niin että aurajuusto sulaa kerman joukkoon. Sekoita valmis kastike ja pasta keskenään.",
       "valmistusaika" : "15min",
@@ -35,6 +39,7 @@
     {
       "id" : 201,
       "name" : "Uunilohi",
+      "imageUrl": "images/foodimg/201.jpeg",
       "ruokavalio" : "kala",
       "ohje" : "Varmista että kalassa ei ole ruotoja. Laita kala uunivuokaan, lisää sitruunaviipaleita ja tilliä päälle, paista 200 asteen uunissa noin 25min. Kalan paistuessa valmista kalalle kastike sekoittamalla kermaviili, sinappi, pippuri, sitruunamehu ja ripaus tilliä. Tarjoile uunilohi esimerkiksi perunamuusin sekä vihersalaatin kera.",
       "valmistusaika" : "30-60min",
@@ -43,6 +48,7 @@
     {
       "id": 202,
       "name" : "Tonnikalapihvit",
+      "imageUrl": "images/foodimg/202.jpeg",
       "ruokavalio" : "kala",
       "ohje" : "Mittaa kermaviili pieneen taikinakulhoon ja sekoita korppujauho sekaan. Anna turvota ja mausta. Valuta tonnikalat, sekoita massaan ja lisää kananmunat. Jos taikina on liian juoksevaa, lisää korppujauhoja. Paista uunin keskitasolla n.200-225 asteessa, kunnes pinnassa on kaunis väri ja pihvit ovat ns. kimmoisia. Tarjoile muusin tai uusien perunoiden kanssa. Kermaviilin jämästä saat oivan kylmäkastikkeen, kun lisäät siihen ruohosipulia ja tilliä.",
       "valmistusaika" : "15-30min",
@@ -51,6 +57,7 @@
     {
       "id": 203,
       "name" : "Tonnikalarisotto",
+      "imageUrl": "images/foodimg/203.jpeg",
       "ruokavalio" : "kala",
       "ohje" : "Kuullota riisi pannulla ja lisää mausteet. Lisää vettä desi kerrallaan koko ajan sekoittaen, kun edellinen desi on melkein imeytynyt riisiin lisää seuraava. Tarkkaile risoton koostumusta ja lisää vettä sen mukaan. Lopuksi lisää herne-maissi-paprika ja tonnikala. Sekoita kunnolla ja tarjoile heti!",
       "valmistusaika" : "15-30min",
@@ -60,6 +67,7 @@
     {
       "id" : 301,
       "name" : "Kanttarellikastike",
+      "imageUrl": "images/foodimg/301.jpeg",
       "ruokavalio" : "kasvis",
       "ohje" : "Pidä puhtaita sieniä kuumalla pannulla kunnes neste haihtuu. Lisää voi ja sipuli hienonnettuna. Kypsennä hetki. Lisää vehnäjauhot ja kerma ja sekoita tasaiseksi. Kypsennä hetki vielä ja sekoita tasaiseksi. Tarjoile esimerkiksi keitettyjen perunoiden kanssa.",
       "valmistusaika" : "15min",
@@ -68,6 +76,7 @@
     {
       "id" : 302,
       "name" : "Kasvislasagne",
+      "imageUrl": "images/foodimg/302.jpeg",
       "ruokavalio" : "kasvis",
       "ohje" : "Levitä voidellun suorakaiteisen vuoan pohjalle juustokastiketta, tämän päälle lasagnelevyjä ja lopuksi 1/3 tai 1/4 osa tomaattikastiketta. Jatka kokoamista samassa järjestyksessä, kolme tai neljä kerrosta. Lopuksi ripottele pinnalle juustoraastetta. Paista lasagnea 200 asteessa 30-40 minuuttia. Tarjoa tuoreiden kasvisten ja vaikkapa raejuuston kanssa.",
       "valmistusaika" : "30-60min",
@@ -76,6 +85,7 @@
     {
       "id" : 303,
       "name" : "Pinaattikeitto",
+      "imageUrl": "images/foodimg/303.jpeg",
       "ruokavalio" : "kasvis",
       "ohje" : "Sulata rasva paksupohjaisessa kattilassa. Lisää vehnäjauhot ja sekoita hetken, älä anna ruskistua. Lisää maito koko ajan sekoittaen. Anna kiehahtaa. Lisää pinaatti ja anna kiehua hetken hiljalleen. Tarjoa keitettyjen kananmunan puolikkaiden kera.",
       "valmistusaika" : "15-30min",
@@ -85,6 +95,7 @@
     {
       "id" : 401,
       "name" : "Linssikeitto",
+      "imageUrl": "images/foodimg/401.jpeg",
       "ruokavalio" : "vegaaninen",
       "ohje" : "Kuullota pilkottu sipuli öljyssä ja sirottele paprikapulveri sekaan. Sekoittele. Sipulin ei tarvitse ruskistua vaan saada vain hieman väriä. Kuori perunat ja pilko pieniksi paloiksi. Lisää kaikki ainekset ja keitä kannen alla n. 35min. Tarjoile sopan kanssa leipää ja juustoa. Sitruunasiivuista saat kivaa makua soppaan.",
       "valmistusaika" : "30-60min",
@@ -93,6 +104,7 @@
     {
       "id" : 402,
       "name" : "Marokkolainen kasvispata",
+      "imageUrl": "images/foodimg/402.jpeg",
       "ruokavalio" : "vegaaninen",
       "ohje" : "Kuori ja kuutioi bataatti. Pilko valkosipuli ja herkkusienet haluamasi kokoisiksi paloiksi. Pannulle loraus öljyä, valkosipulit hetkeksi tirisemään. Hetken päästä lisää herkkusienet, pyörittele tovi. Lisää tomaattimurska, bataatit, rusinat ja mausteet. Tässä vaiheessa kannattaa lisätä myös vettä, jos haluaa kastikemaisempaa. Anna muhia hetken. Tämän jälkeen lisää kikherneet. Makua tulee lisää kun murskaat sekaan kasvisliemikuution ja annat muhia. Ruoka on valmista kun bataatit ovat miellyttävän pehmeitä. Kannattaa maustaa mielivaltaisesti ja runsaalla kädellä. Tarjoile esimerkiksi riisin kanssa.",
       "valmistusaika" : "30-60min",
@@ -101,6 +113,7 @@
     {
       "id" : 403,
       "name" : "Oliivi-tomaatti-nyhtis-uunivuoka",
+      "imageUrl": "images/foodimg/403.jpeg",
       "ruokavalio" : "vegaaninen",
       "ohje" : "Laita uuni kuumenemaan n. 225 asteeseen. Levitä reilusti oliiviöljyä ison uunivuoan pohjalle. Ripottele öljyn päälle riisit ja nyhtökaurat. Lisää mausteet ja vesi. Laita vuoka uuniin n. puoleksi tunniksi, jonka aikana veden pitäisi haihtua noin puoleen. Ota vuoka uunista lisätäksesi pinnalle tomaatit ja oliivit kokonaisina. Voit valuttaa vielä oliiviöljyä varsinkin tomaattien pintaan. Laita vuoka vielä uuniin noin puoleksi tunniksi, tai kunnes loppu vesi on haihtunut ja tomaatit ovat hieman ruskistuneet.",
       "valmistusaika" : "60-90min",

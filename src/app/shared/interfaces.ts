@@ -1,4 +1,4 @@
-export interface shoppingListTest {
-    name: string;
+export interface Recipe {
+    name: String;
     isStrikethrough: boolean;
 }

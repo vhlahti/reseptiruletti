@@ -11,11 +11,12 @@
 figure {
     order: 1;
     object-position: left;
+    max-width: 200px;
 }
 
-/*img {
-    width: 100%;
-    height: auto;}*/
+img {
+    max-width: 100%;
+    }
 
 .recipe {
     order: 2;
