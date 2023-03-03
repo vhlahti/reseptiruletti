@@ -1,24 +1,18 @@
-<section class="wrapper">  
+<section *ngFor="let recipe of (recipes | async)" class="wrapper">  
     <section class="main">
-        <h1>Ostoslista</h1>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <!-- <th  *ngFor="let header of headers">{{ header }}</th >-->
-                        <th>{{ header }}</th>
-                    </tr>
-                </thead>
-                <!-- luo jokaiselle riville oman muuttujan: ingredient.isStrikethrough, joka mahdollistaa checkmarkin käyttämisen rivi kerrallaan  -->
-                <tr *ngFor="let ingredient of ingredients">
-                    <td [ngClass]="{ 'strikethrough': ingredient.isStrikethrough }">{{ ingredient.name }}</td>
-                
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" [(ngModel)]="ingredient.isStrikethrough">
-                    </div>
-                </tr>
-            </table>
-        <!-- 
-        <button class="btn btn-info">Lähetä Sähköpostiin</button>
-    -->
+      <h1>Ostoslista</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <h2>{{ recipe?.name }}</h2> 
+          </tr>
+        </thead>
+        <tr *ngFor="let ingredient of ingredients">
+            <td [ngClass]="{ 'strikethrough': ingredient.isStrikethrough }">{{ ingredient.name }}</td>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" [(ngModel)]="ingredient.isStrikethrough">
+            </div>
+          </tr>
+      </table>
     </section>
-</section>
+  </section>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
-import { shoppingListTest } from '../shared/interfaces';
+import { Observable } from 'rxjs';
+import { DataService } from '../data.service';
+import { Recipe } from '../shared/interfaces'
 
 @Component({
   selector: 'app-shopping-list',
@@ -10,18 +11,23 @@ import { shoppingListTest } from '../shared/interfaces';
 export class ShoppingListComponent implements OnInit {
   header?: string;
   isStrikethrough = false;
-  ingredients?: shoppingListTest[];
+  recipes: Observable<any>;
+  ingredients: Recipe[] = [];
 
-  constructor() {
+  constructor(private dataService: DataService) {
+
   }
 
   ngOnInit(): void {
-    this.header = 'Sillisalaatti'
-    this.ingredients = [
-      { name: '666 grammaa silliä', isStrikethrough: false},
-      { name: '6 perunaa', isStrikethrough: false},
-      { name: '0.6 sipulia', isStrikethrough: false},
-      { name: '6 tl smetanaa', isStrikethrough: false}
-  ];
+    this.getRecipes();
+  }
+
+  getRecipes(): void {
+    this.recipes = this.dataService.getAllRecipes();
+    this.recipes.subscribe(recipes => {
+      this.ingredients = recipes[0].ainekset.map(ainekset => {
+        return { name: ainekset, isStrikethrough: false };
+      });
+    });
   }
 }
