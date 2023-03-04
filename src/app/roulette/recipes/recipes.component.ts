@@ -8,9 +8,11 @@ import { Observable } from 'rxjs';
 })
 export class RecipesComponent implements OnInit {
 
-  @Input() chosenRecipe: Observable<any[]>;
-  
   showShoppingList = false;
+
+  @Input() chosenRecipe: Observable<any[]>;
+
+  constructor() {}
 
   ngOnInit(): void {}
 

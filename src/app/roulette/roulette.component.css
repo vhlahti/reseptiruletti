@@ -2,6 +2,7 @@
     background-color: #6CC8E1;
     display: grid;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 .roulette h1 {
     text-align: center;

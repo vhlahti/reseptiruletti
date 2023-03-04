@@ -1,10 +1,10 @@
-<section *ngFor="let recipe of (recipes | async)" class="wrapper">  
+<section *ngFor="let recipe of chosenRecipe | async" class="wrapper">  
     <section class="main">
       <h1>Ostoslista</h1>
       <table class="table">
         <thead>
           <tr>
-            <h2>{{ recipe?.name }}</h2> 
+            <h2>{{ recipe.name }}</h2> 
           </tr>
         </thead>
         <tr *ngFor="let ingredient of ingredients">

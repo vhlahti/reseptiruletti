@@ -34,9 +34,8 @@
 
 </section>
 
-<p>Testi ruletti-komponentissa:</p>
+<!-- import chosenRecipe to recipes and shopping-list components -->
 
-<div *ngFor="let recipe of chosenRecipe | async">
-  <p>{{ recipe.name }}</p>
-  <p>{{ recipe.ohje }}</p>
-</div>
+<app-recipes [chosenRecipe]="chosenRecipe"></app-recipes>
+<app-shopping-list [chosenRecipe]="chosenRecipe"></app-shopping-list>
+

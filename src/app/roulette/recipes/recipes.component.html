@@ -1,10 +1,4 @@
-<p>Testi resepti-komponentissa:</p>
-
 <div *ngFor="let recipe of chosenRecipe | async">
-  <p>{{ recipe.name }}</p>
-  <p>{{ recipe.ohje }}</p>
-</div>
-
 <article id="recipe-name">
     <h1>Tänään syödään: </h1>
     <section class="container">
@@ -12,10 +6,10 @@
         <img src="{{ 'assets/images/foodimg/' + recipe.id + '.jpeg' }}" alt="kuva ateriasta"/>
       </figure>
       <section class="recipe">
-        <h2> chosenRecipe.name }}</h2> <!-- Ruoan nimi tähän -->
+        <h2>{{ recipe.name }}</h2> <!-- Ruoan nimi tähän -->
       <hr>
       <h5>Resepti: </h5>
-        <p> chosenRecipe.ohje }}</p> <!-- Resepti tähän -->
+        <p>{{ recipe.ohje }}</p> <!-- Resepti tähän -->
       </section>
     </section>
     <section class="ostoslista-btn">
@@ -24,5 +18,6 @@
     </section>
 
   </article>
+</div>
 
 <app-shopping-list *ngIf="showShoppingList"></app-shopping-list>

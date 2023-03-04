@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs';
 import { DataService } from '../data.service';
@@ -44,12 +44,16 @@ export class RouletteComponent implements OnInit {
   // the function filters the recipes and extracts the chosen content into chosenRecipe array
 
   onSubmit() {
+
+  // log which value (meat/fish/vege/vegan) user selected
+
   console.log(this.rouletteForm.value);
 
   if (this.rouletteForm.value.roulette === 'meat')
   {
 
-    // first the function looks through the recipes and creates a randomId from the id pool
+    // look through all the recipes and find those that correspond chosen value
+    // choose a random id from the value's recipe pool and save it as randomId
 
     this.recipes.pipe(
       map(items => items.filter(item => item.id.toString().startsWith("1"))),
@@ -61,7 +65,7 @@ export class RouletteComponent implements OnInit {
       this.randomId = randomId;
       console.log(randomId);
 
-    // then it extracts the referenced id object (recipe) and puts it into chosenRecipe
+    // extract the referenced id object (recipe) and save it as chosenRecipe
 
     this.chosenRecipe = this.recipes.pipe(
       map(items => items.filter(item => item.id === randomId))
@@ -75,7 +79,6 @@ export class RouletteComponent implements OnInit {
   }
   if (this.rouletteForm.value.roulette === 'fish')
   {
-
     this.recipes.pipe(
       map(items => items.filter(item => item.id.toString().startsWith("2"))),
       map(filteredItems => {
@@ -93,7 +96,6 @@ export class RouletteComponent implements OnInit {
   }
   if (this.rouletteForm.value.roulette === 'vege')
   {
-
     this.recipes.pipe(
       map(items => items.filter(item => item.id.toString().startsWith("3"))),
       map(filteredItems => {
@@ -111,7 +113,6 @@ export class RouletteComponent implements OnInit {
   }
   if (this.rouletteForm.value.roulette === 'vegan')
   {
-
     this.recipes.pipe(
       map(items => items.filter(item => item.id.toString().startsWith("4"))),
       map(filteredItems => {

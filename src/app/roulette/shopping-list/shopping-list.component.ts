@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Observable } from 'rxjs';
-import { DataService } from '../data.service';
-import { Recipe } from '../shared/interfaces'
+import { DataService } from '../../data.service';
+import { Recipe } from '../../shared/interfaces'
 
 @Component({
   selector: 'app-shopping-list',
@@ -13,6 +13,8 @@ export class ShoppingListComponent implements OnInit {
   isStrikethrough = false;
   recipes: Observable<any>;
   ingredients: Recipe[] = [];
+
+  @Input() chosenRecipe: Observable<any[]>;
 
   constructor(private dataService: DataService) {
 
