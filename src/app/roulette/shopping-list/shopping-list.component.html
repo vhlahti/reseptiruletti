@@ -7,8 +7,14 @@
             <h2>{{ recipe.name }}</h2> 
           </tr>
         </thead>
-        <tr *ngFor="let ingredient of ingredients">
+        <!-- <tr *ngFor="let ingredient of ingredients">
             <td [ngClass]="{ 'strikethrough': ingredient.isStrikethrough }">{{ ingredient.name }}</td>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" [(ngModel)]="ingredient.isStrikethrough">
+            </div>
+          </tr> -->
+          <tr *ngFor="let ingredient of recipe.ainekset">
+            <td [ngClass]="{ 'strikethrough': ingredient.isStrikethrough }">{{ ingredient }}</td>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" [(ngModel)]="ingredient.isStrikethrough">
             </div>
