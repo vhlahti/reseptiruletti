@@ -1,12 +1,15 @@
 .footer {
-  padding: 2rem 1rem 1rem 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem .7rem .7rem .7rem;
   background-color: #59595b;
   color: white;
 }
 
 .logo {
-  min-width: 130px;
-  max-width: 260px;
+  min-width: 80px;
+  max-width: 200px;
 }
 
 img {
