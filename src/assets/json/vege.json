@@ -4,20 +4,23 @@
       "name" : "Linssikeitto",
       "ohje" : "Kuullota pilkottu sipuli öljyssä ja sirottele paprikapulveri sekaan. Sekoittele. Sipulin ei tarvitse ruskistua vaan saada vain hieman väriä. Kuori perunat ja pilko pieniksi paloiksi. Lisää kaikki ainekset ja keitä kannen alla n. 35min. Tarjoile sopan kanssa leipää ja juustoa. Sitruunasiivuista saat kivaa makua soppaan.",
       "valmistusaika" : "30-60min",
-      "ainekset" : ["1 sipuli", "2 valkosipulinkynttä",	"2rkl öljyä", "1tl paprikaa (jauhettua)", "3dl linssejä (punaisia tai vihreitä)", "1,25l vettä", "1 kasvisliemikuutio", "2 perunaa", "2rkl tomaattipyrettä", "1tl suolaa"]
+      "ainekset" : ["1 sipuli", "2 valkosipulinkynttä",	"2rkl öljyä", "1tl paprikaa (jauhettua)", "3dl linssejä (punaisia tai vihreitä)", "1,25l vettä", "1 kasvisliemikuutio", "2 perunaa", "2rkl tomaattipyrettä", "1tl suolaa"],
+      "budjetti" : "€"
     },
     {
       "id" : 402,
       "name" : "Marokkolainen kasvispata",
       "ohje" : "Kuori ja kuutioi bataatti. Pilko valkosipuli ja herkkusienet haluamasi kokoisiksi paloiksi. Pannulle loraus öljyä, valkosipulit hetkeksi tirisemään. Hetken päästä lisää herkkusienet, pyörittele tovi. Lisää tomaattimurska, bataatit, rusinat ja mausteet. Tässä vaiheessa kannattaa lisätä myös vettä, jos haluaa kastikemaisempaa. Anna muhia hetken. Tämän jälkeen lisää kikherneet. Makua tulee lisää kun murskaat sekaan kasvisliemikuution ja annat muhia. Ruoka on valmista kun bataatit ovat miellyttävän pehmeitä. Kannattaa maustaa mielivaltaisesti ja runsaalla kädellä. Tarjoile esimerkiksi riisin kanssa.",
       "valmistusaika" : "30-60min",
-      "ainekset" : ["1kpl bataatti", "1prk tomaattimurskaa", "1tlk kikherneitä", "1tlk herkkusieniä", "rusinoiata", "4 kynttä valkosipulia", "3tl garam masalaa", "öljyä", "1 kasvisliemikuutio"]
+      "ainekset" : ["1kpl bataatti", "1prk tomaattimurskaa", "1tlk kikherneitä", "1tlk herkkusieniä", "rusinoiata", "4 kynttä valkosipulia", "3tl garam masalaa", "öljyä", "1 kasvisliemikuutio"],
+      "budjetti" : "€€"
     },
     {
       "id" : 403,
       "name" : "Oliivi-tomaatti-nyhtis-uunivuoka",
       "ohje" : "Laita uuni kuumenemaan n. 225 asteeseen. Levitä reilusti oliiviöljyä ison uunivuoan pohjalle. Ripottele öljyn päälle riisit ja nyhtökaurat. Lisää mausteet ja vesi. Laita vuoka uuniin n. puoleksi tunniksi, jonka aikana veden pitäisi haihtua noin puoleen. Ota vuoka uunista lisätäksesi pinnalle tomaatit ja oliivit kokonaisina. Voit valuttaa vielä oliiviöljyä varsinkin tomaattien pintaan. Laita vuoka vielä uuniin noin puoleksi tunniksi, tai kunnes loppu vesi on haihtunut ja tomaatit ovat hieman ruskistuneet.",
       "valmistusaika" : "60-90min",
-      "ainekset" : ["2-3dl riisiä", "7-9dl vettä", "250g nyhtökauraa", "1prk oliiveja", "2rasiaa kirsikkatomaatteja", "1dl oliiviöljyä", "mausteita oman maun mukaan"]
+      "ainekset" : ["2-3dl riisiä", "7-9dl vettä", "250g nyhtökauraa", "1prk oliiveja", "2rasiaa kirsikkatomaatteja", "1dl oliiviöljyä", "mausteita oman maun mukaan"],
+      "budjetti" : "€€"
     }
   ]

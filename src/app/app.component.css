@@ -1,23 +1,33 @@
 body,
 html {
   height: 100%;
+  position: relative;
 }
 
-.bg {
-  position: relative;
-  min-height: 100%;
-  background-image: url("/assets/images/headerbg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .wrap {
-  padding-bottom: 3rem;
+  min-height: 100%;
+  display: block;
+  position: relative;
+
 }
+
+app-roulette {
+  display: block;
+  padding-bottom: 8rem;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 3rem;
-  margin-bottom: -3rem;
+}
+
+
+
+/* Footeria ja sisällön erottamista varten pienemmässä kuin 420px näytössä */
+@media screen and (max-width: 420px) {
+  app-roulette {
+    display: block;
+    padding-bottom: 12rem;
+  }
 }

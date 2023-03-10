@@ -1,5 +1,5 @@
 .footer {
-  padding: 1.5rem .7rem .7rem .7rem;
+  padding: 1rem 1rem 0 1rem;
   background-color: #59595b;
   color: white;
 }
@@ -14,8 +14,9 @@ img {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: .8rem;
   text-align: center;
+  margin-top: -.5rem;
 }
 
 ul {
