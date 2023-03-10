@@ -1,6 +1,6 @@
 <section class="roulette">
 
-  <h1>Valitse ruokavalio</h1>
+  <h3>Valitse ruokavalio</h3>
 
   <form [formGroup]="rouletteForm" (ngSubmit)="onSubmit()">
     
@@ -20,6 +20,23 @@
     <div class="form-check form-check-inline">
     <input class="form-check-input" type="radio" value="vegan" id="vegan" formControlName="roulette">
     <label class="form-check-label" for="vegan">Vegaaninen</label>
+    </div>
+  </article>
+
+  <h3>Valitse budjetti</h3>
+
+  <article class="rouletteBoxes">
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="€" id="€" formControlName="budjetti">
+    <label class="form-check-label" for="€">€</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="€€" id="€€" formControlName="budjetti">
+    <label class="form-check-label" for="€€">€€</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" value="€€€" id="€€€" formControlName="budjetti">
+    <label class="form-check-label" for="€€€">€€€</label>
     </div>
   </article>
 

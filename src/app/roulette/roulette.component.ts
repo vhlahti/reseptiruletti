@@ -22,7 +22,8 @@ export class RouletteComponent implements OnInit {
   constructor(private dataService: DataService,
               public fb: FormBuilder) {
     this.rouletteForm = fb.group({
-      roulette: ['', Validators.required]
+      roulette: ['', Validators.required],
+      budjetti: ['', Validators.required]
     });
   }
 
@@ -67,9 +68,23 @@ export class RouletteComponent implements OnInit {
       startingNumber = '4';
       break;
   }
-  
+
+  let budgetFilter: string;
+  switch (this.rouletteForm.value.budjetti) {
+    case '€':
+      budgetFilter = '€';
+      break;
+    case '€€':
+      budgetFilter = '€€';
+      break;
+    case '€€€':
+      budgetFilter = '€€€';
+      break;
+  }
+
   this.recipes.pipe(
     map(items => items.filter(item => item.id.toString().startsWith(startingNumber))),
+    map(filteredItems => filteredItems.filter(item => item.budjetti === budgetFilter)),
     map(filteredItems => {
       const randomIndex = Math.floor(Math.random() * filteredItems.length);
       return filteredItems[randomIndex].id;
