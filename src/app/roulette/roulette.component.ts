@@ -14,6 +14,7 @@ export class RouletteComponent implements OnInit {
   recipes: Observable<any>;
   randomId: number;
   chosenRecipe: Observable<any[]>;
+  showFormSelectors = false;
 
   // form handler
 
@@ -23,7 +24,7 @@ export class RouletteComponent implements OnInit {
               public fb: FormBuilder) {
     this.rouletteForm = fb.group({
       roulette: ['', Validators.required],
-      budjetti: ['', Validators.required]
+      budget: ['', Validators.required]
     });
   }
 
@@ -51,7 +52,8 @@ export class RouletteComponent implements OnInit {
   console.log(this.rouletteForm.value);
 
   // filter recipes by id starting number
-  // choose a random id from the value's recipe pool and save it as randomId
+  // filter recipes by budget value
+  // choose a random id from the filtered recipe pool and save it as randomId
 
   let startingNumber: string;
   switch (this.rouletteForm.value.roulette) {
@@ -70,7 +72,7 @@ export class RouletteComponent implements OnInit {
   }
 
   let budgetFilter: string;
-  switch (this.rouletteForm.value.budjetti) {
+  switch (this.rouletteForm.value.budget) {
     case '€':
       budgetFilter = '€';
       break;
@@ -104,6 +106,46 @@ export class RouletteComponent implements OnInit {
   this.chosenRecipe.subscribe(recipes => console.log(recipes));
 
   });
+  }
+  
+  // get a random recipe from the whole recipe database
+
+  rouletteWithoutFilters() {
+
+    // choose a random id from the recipe database and save it as randomId
+
+    this.recipes.pipe(
+      map(items => {
+        const randomIndex = Math.floor(Math.random() * items.length);
+        return items[randomIndex].id;
+      })
+    ).subscribe(randomId => {
+      this.randomId = randomId;
+      console.log(randomId);
+  
+    // extract the referenced id object (recipe) and save it as chosenRecipe
+  
+    this.chosenRecipe = this.recipes.pipe(
+      map(items => items.filter(item => item.id === randomId))
+    );
+  
+    // subscribe to the chosenRecipe observable to retrieve the recipe
+  
+    this.chosenRecipe.subscribe(recipes => console.log(recipes));
+  
+    });
+
+  }
+
+  // clear the form when toggle is switched off so rouletteWithoutFilters() can work properly
+
+  onToggleChange($event) {
+    if ($event.checked) {
+      // do nothing
+    }
+    else {
+      this.rouletteForm.reset();
+    }
   }
 
 }
