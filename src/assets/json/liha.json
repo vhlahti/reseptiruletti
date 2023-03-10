@@ -30,5 +30,45 @@
     "valmistusaika" : "15min",
     "ainekset" : ["400g broilerin filesuikaleita", "3dl ruokakermaa", "1pkt aurajuustoa", "2-4 valkosipulinkynttä", "suolaa", "maustepippuria", "pastaa pussin ohjeen mukaan 4:lle hengelle"],
     "budjetti" : "€€€"
+  },
+  {
+    "id" : 105,
+    "name" : "Paella",
+    "imageUrl": "images/foodimg/105.jpeg",
+    "ruokavalio" : "liha",
+    "ohje" : "Leikkaa broisku ja possu tikkumaisiksi ohuiksi suikaleiksi. Ota mahdollisimman suuri paistinpannu, jollei ole paella pannua. Leikkaa jotain maustettua makkaraa muuutama ohut siivu, tässä oli Saaremaan kanamakkaraa. Leikkaa sipuli ohkaisiksi lohkoiksi ja valkosipulit muutamaan osaan. Ruskista molemmat lihasuikaleet pannulla, siirrä toiseen astiaan odottamaan ja sirottele hiukan suolaa päälle. Käytä pannulla myös sipulit ja makkarat, siirrä ne myös sivuun odottamaan. Lisää pannulle vesi, kanaliemikuutio, riisit ja sahrami. Liota liemikuutio ja lisää kana ja possu. Tarkista pakkauksesta riisin keittoaika ja toimi sen mukaan. Lisää vihannekset pari minuuttia ennen kuin riisi on valmis, niihin saa jäädä pureskeltavaa. Lisää heti perään katkaravut ja makkarat. Nosta pannu pöytään ja laita päälle sitruunalohkoja.",
+    "valmistusaika" : "20-30min",
+    "ainekset" : ["2 possun ulkofilettä", "1 broilerin rintafilettä", "maustettua makkaraa", "katkarapuja", "2,5 dl pitkäjyväistä riisiä", "0,5-1 tl sahramia", "1 sipuli", "4 valkosipulinkynttä", "muutama aurinkokuivattu tomaatti suikaloituna", "herne-maissi-porkkana pakaste sekoitus", "1 kanaliemikuutio", "6 dl vettä", "öljy paistamiseen", "suolaa"],
+    "budjetti" : "€€"
+  },
+  {
+    "id" : 106,
+    "name" : "Pasta carbonara roomalaisittain",
+    "imageUrl": "images/foodimg/106.jpeg",
+    "ruokavalio" : "liha",
+    "ohje" : "Litistä kuorittu valkosipulinkynsi veitsensyrjällä. Kuumenn oliiviöljy ja paista kynsi kullankeltaiseksi, poista kynsi öljystä. Lisää pieneksi kuutioitu guanciale ja paista palat rapeiksi.  Lisää viini ja anna haihtua. Sekoita keskenään muna, suolaa, pippuria ja raastettu juusto.  Keitä pasta al denteksi suolavedessä ja valuta pasta lävikössä. Sekoita pasta  munakastikkeen ja guancialen kanssa yhteen. Koristele annos basilikalla.",
+    "valmistusaika" : "15min",
+    "ainekset" : ["400 g bavette pastaa", "1 kpl valkosipulinkynttä", "3 kpl isoa kananmunaa", "100 g guancialea siivuina ja pieneksi kuutioituna", "60 g pecorinoa raastettuna", "2 rkl laadukasta italialaista oliiviöljyä", "1 rkl kuivaa valkoviiniä", "suolaa ja pippuria", "tuoretta basilikaa"],
+    "budjetti" : "€€€"
+  },
+  {
+    "id" : 107,
+    "name" : "Hirvenpaisti",
+    "imageUrl": "images/foodimg/107.jpeg",
+    "ruokavalio" : "liha",
+    "ohje" : "Siisti paisti, huuhtele nopeasti ja kuivaa hyvin. Ruskista voi valurautapannussa ja ruskista siinä paisti joka puolelta kauniin väriseksi. Ota liha ja laita reilunkokoiseen kattilaan, huuhtele paistinpannu ja kaada huuhdeliemi kattilaan, lisää vettä että paisti peittyy. Kuori vaahto pinnalta ja kun on liemi kirkas, niin sitten vasta mausta. Liemi saa olla todella hyvin maustettua. Laita lohkotut sipulit ja porkkanat sekä pippurit ym kattilaan ja keitä paisti miedolla lämmöllä. Lihan pitää olla läpikypsä. Tarjoile perunamuussin kanssa tai palloperunoiden.",
+    "valmistusaika" : "yli 60min",
+    "ainekset" : ["hirven sisäpaistia", "voita", "sipulia", "porkkanaa", "valkosipulia", "lihaliemikuutioita", "suolaa", "cayennepippuria", "katajanmarjoja", "mustapippuria ja valkopippuria", "vettä", "vehnäjauhoja", "paistinlientä", "kermaa", "sinappia", "ketsuppia", "konjakkia", "punapippuria"],
+    "budjetti" : "€€€"
+  },
+  {
+    "id" : 108,
+    "name" : "Pyttipannu",
+    "imageUrl": "images/foodimg/108.jpeg",
+    "ruokavalio" : "liha",
+    "ohje" : "Kuori ja leikkaa (raa'at) perunat pieniksi kuutioiksi. Kuumenna reilu nokare voita pannulla ja paistele perunoita keskilämmöllä, kunnes ovat kauniin ruskeat ja kypsät. Lisää pannulle sipulisilppu ja makkarakuutiot. Paistele, kunnes makkarat ruskistuvat. Mausta tuoreella persiljasilpulla, suolalla ja pippurilla.",
+    "valmistusaika" : "15min",
+    "ainekset" : ["4 kpl perunaa, keskikokoista", "voita paistamiseen", "4 kpl salottisipulia", "2 kpl makkaraa (yht. noin 250g)", "ripaus merisuolahiutaleita", "ripaus mustapippuria myllystä","1 rkl tuoretta persiljasilppua"],
+    "budjetti" : "€"
   }
 ]

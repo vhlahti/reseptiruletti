@@ -22,5 +22,35 @@
       "valmistusaika" : "60-90min",
       "ainekset" : ["2-3dl riisiä", "7-9dl vettä", "250g nyhtökauraa", "1prk oliiveja", "2rasiaa kirsikkatomaatteja", "1dl oliiviöljyä", "mausteita oman maun mukaan"],
       "budjetti" : "€€"
+    },
+    {
+      "id" : 404,
+      "name" : "Spaghetti alla puttanesca",
+      "imageUrl": "images/foodimg/404.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Kuumenna öljy pannulla, lisää silputtu sipuli ja valkosipulisilppu. Freesaa hetki, lisää tomaatit, huuhdotut kaprikset, viipaloidut oliivit (poista kivet) ja puolet persiljasta sekä mausteet. Anna hautua hiljalleen (20-30 min). Keitä spagetti al denteksi, kaada vesi pois ja lisää spaghetti pannulle kastikkeen sekaan sekoittaen, loppu persiljasilppu myös mukaan. Tarjoile heti. Halutessa viimeistele parmesaanijuustolla, vaikka se ei välttämättä tähän ruokaan kuulukaan.",
+      "valmistusaika" : "15min",
+      "ainekset" : ["500 g spagettia", "1 tlk säilöttyjä kokonaisia kirsikkatomaatteja", "2 pientä sipulia", "3 valkosipulin kynttä murskattuna", "1 dl mustia oliiveja", "2 rkl kapriksia", "nippu persiljaa", "1 tl chili rouhetta tai tuoretta yksi palko", "oreganoa", "neitsyt oliiviöljyä"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 405,
+      "name" : "Kasviswokki",
+      "imageUrl": "images/foodimg/405.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Valuta kikherneet ottaen suolaliemen talteen. Paista ne wokkipannussa öljyssä kunnes pinta ottaa rusketusta. Pilko sipuli ja halutessasi hieman muita kasviksia. Lisää pannuun ja kuullota hetki. Kaada pakastevihannekset joukkoon ja sulata minuutti pari. Lisää kookosmaito sekä noin 1 dl kikherneiden lientä. Mausta misolla, sinapilla ja kuivilla mausteilla. Hauduta keskilämmöllä kannen alla 10-15 min. Lisää lientä, jos wokki kuivuu liiaksi. Keitä sillä välin nuudelit tai riisintapainen lisäke. Koristele wokki yrtein tai kevätsipulilla.",
+      "valmistusaika" : "30-60min",
+      "ainekset" : ["1 tlk kikherneitä suolaliemessä", "loraus öljyä", "1 sipuli (ja muita kasviksia mitä kaapista löytyy)", "1 pss pakastevihanneksia esim. vietnamilaismix", "200-300 ml kookosmaitoa", "1 tl misotahnaa", "1/2 - 1 tl dijonsinappia", "1/2 tl valkosipulijauhetta", "1/2 tl paprikajauhetta", "1/2 tl currya", "ripaus valkopippuria", "tuoreita yrttejä tai kevätsipulia koristeluun"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 406,
+      "name" : "Maa-artisokkarisotto",
+      "imageUrl": "images/foodimg/406.jpeg",
+      "ruokavalio" : "vegaaninen",
+      "ohje" : "Kuori maa-artisokat ja sipuli. Pilko ne parin millin kuutioiksi. Kuumenna oliiviöljy kattilassa ja lisää maa-artisokat ja sipulit. Kuullota hetki keskilämmöllä. Lisää riisi ja jatka kuullottamista muutaman minuutin ajan, kunnes riisi alkaa muuttua läpikuultavaksi. Kaada joukkooon valkoviini. Lisää lämmitettyä kasvislientä desi-pari kerrallaan aina kun edellinen erä on imeytynyt riisiin. Tämän prosessin pitäisi kestää noin 20 minuuttia. Sekoittele risottoa ahkerasti, jotta riisistä irtoaa tärkkelystä ja risotosta tulee kermaisen oloista. Lisää parmesaaniraaste, tryffeliöljy, voi ja suola (maistele sopiva määrä). Sekoittele kunnes juusto ja voi sulavat, sekä kaikki on muutenkin sopivasti sekaisin. Nauti.",
+      "valmistusaika" : "15min",
+      "ainekset" : ["150 g maa-artisokkaa", "1 sipuli", "n. 2 rkl oliiviöljyä", "200 g risottoriisiä (mieluiten carnaroli, mutta arborio käy myös)", "1 dl valkoviiniä","1 l kasvislientä", "50 g parmesaaniraastetta", "30 g voita", "1/2 tl tryffeliöljyä", "1/2 tl suolaa"],
+      "budjetti" : "€€€"
     }
   ]
