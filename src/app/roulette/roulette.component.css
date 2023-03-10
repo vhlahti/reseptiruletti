@@ -4,12 +4,14 @@
     justify-content: center;
     padding-bottom: 1rem;
 }
-.roulette h1 {
+.roulette h3 {
     text-align: center;
     margin: 0.5rem 0rem 0rem 0rem;
 }
 .rouletteBoxes {
     padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
 label {
     font-size: 1.0rem;

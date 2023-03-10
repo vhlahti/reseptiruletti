@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input,  Output, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -7,17 +7,18 @@ import { Observable } from 'rxjs';
   styleUrls: ['./recipes.component.css']
 })
 export class RecipesComponent implements OnInit {
-
+  @Input() chosenRecipe: Observable<any[]>;
   showShoppingList = false;
 
-  @Input() chosenRecipe: Observable<any[]>;
-
-  constructor() {}
+  constructor() {
+    this.showShoppingList = false;
+  }
 
   ngOnInit(): void {}
 
   onShowShoppingList() {
     this.showShoppingList = !this.showShoppingList;
   }
+  
 
 }
