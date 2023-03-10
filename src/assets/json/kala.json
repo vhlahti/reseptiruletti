@@ -3,7 +3,7 @@
       "id" : 201,
       "name" : "Uunilohi",
       "ohje" : "Varmista että kalassa ei ole ruotoja. Laita kala uunivuokaan, lisää sitruunaviipaleita ja tilliä päälle, paista 200 asteen uunissa noin 25min. Kalan paistuessa valmista kalalle kastike sekoittamalla kermaviili, sinappi, pippuri, sitruunamehu ja ripaus tilliä. Tarjoile uunilohi esimerkiksi perunamuusin sekä vihersalaatin kera.",
-      "valmistusaika" : "30-60min",
+      "valmistusaika" : "60",
       "ainekset" : ["1kg lohta", "1 sitruuna", "tilliä", "1prk kermaviiliä", "1tl sinappia", "sitruunapippuria", "sitruunamehua"],
       "budjetti" : "€€"
     },
@@ -11,7 +11,7 @@
       "id": 202,
       "name" : "Tonnikalapihvit",
       "ohje" : "Mittaa kermaviili pieneen taikinakulhoon ja sekoita korppujauho sekaan. Anna turvota ja mausta. Valuta tonnikalat, sekoita massaan ja lisää kananmunat. Jos taikina on liian juoksevaa, lisää korppujauhoja. Paista uunin keskitasolla n.200-225 asteessa, kunnes pinnassa on kaunis väri ja pihvit ovat ns. kimmoisia. Tarjoile muusin tai uusien perunoiden kanssa. Kermaviilin jämästä saat oivan kylmäkastikkeen, kun lisäät siihen ruohosipulia ja tilliä.",
-      "valmistusaika" : "15-30min",
+      "valmistusaika" : "30",
       "ainekset" : ["2prk tonnikalaa vedessä", "4rkl kermaviiliä", "0,5-1dl korppujauhoja", "2tl sitruunapippuria", "1-2 kananmunaa", "mausteita oman maun mukaan"],
       "budjetti" : "€"
     },
@@ -19,7 +19,7 @@
       "id": 203,
       "name" : "Tonnikalarisotto",
       "ohje" : "Kuullota riisi pannulla ja lisää mausteet. Lisää vettä desi kerrallaan koko ajan sekoittaen, kun edellinen desi on melkein imeytynyt riisiin lisää seuraava. Tarkkaile risoton koostumusta ja lisää vettä sen mukaan. Lopuksi lisää herne-maissi-paprika ja tonnikala. Sekoita kunnolla ja tarjoile heti!",
-      "valmistusaika" : "15-30min",
+      "valmistusaika" : "20",
       "ainekset" : ["1prk tonnikalaa öljyssä", "2dl risottoriisiä", "1ps herne-maissi-paprikaa", "mausteita oman maun mukaan"],
       "budjetti" : "€€"
     },
@@ -27,7 +27,7 @@
       "id": 204,
       "name" : "Seitikeitto",
       "ohje" : "Sulata seitipala ja leikkaa se 1cm paksuisiksi viipaleiksi. Kuumenna vesi kiehuvaksi ja lisää veteen jäinen peruna-sipulisekoitus, kalaliemikuutio ja suola. Kun keitto kiehuu, lisää kalaviipaleet. Keitä miedolla lämmöllä noin 10 minuuttia. Mausta pippurilla ja tillillä ja halutessasi kermalla.",
-      "valmistusaika" : "15-30min",
+      "valmistusaika" : "30",
       "ainekset" : ["500g peruna-sipulisekoitus", "400g Alaskanseitiä", "1 kala- tai kasvisliemikuutio", "1/2tl suolaa", "1/2tl pippuria", "(1-2dl ruokakermaa)"],
       "budjetti" : "€€"
     },
@@ -35,7 +35,7 @@
       "id": 205,
       "name" : "Kalapuikot ja muusi",
       "ohje" : "Kuori ja pilko perunat. Keitä kasvisliemikuutiolla maustetussa vedessä kunnes pehmenevät. Kaada suurin osa keitinliemestä pois, survo muusiksi survimella tai sauvasekoittimella. Lisää maitoa sen verran että koostumus on toivotunlainen. Mausta voilla, suolalla ja valkopippurilla. Kalapuikot paistetaan paketin ohjeen mukaan. Yleensä keskilämmöllä molemmin puolin n. 5 min.",
-      "valmistusaika" : "30-60min",
+      "valmistusaika" : "20",
       "ainekset" : ["7 perunaa", "1 kasvisliemikuutio", "2 dl maitoa", "2 rkl voita", "1tl suolaa", "1/2tl valkopippuria", "1 pkt pakaste kalapuikkoja"],
       "budjetti" : "€€"
     },
@@ -43,7 +43,7 @@
       "id": 206,
       "name" : "Kylmäsavulohisalaatti",
       "ohje" : "Valmista sitrusvinegretti sekoittamalla oliiviöljy, sitruunamehu, sinappi, suola ja sokeri. Viipaloi kurkku ja avokadot. Kaada salaattisekoitus kulhoon, lisää joukkoon sitrusvinegretti ja sekoita ainekset keskenään. Levitä salaatti laakealle vadille. Lisää päälle kurkku- ja avokadoviipaleet sekä kirjolohi. Viimeistele salaatti tillillä.",
-      "valmistusaika" : "30-60min",
+      "valmistusaika" : "15",
       "ainekset" : ["180g kurkkua", "2 avokadoa", "1ps salaattisekoitusta", "150g kylmäsavustettua lohifileetä", "1/2dl oliiviöljyä", "1rkl sitruunamehua", "1tl sinappia", "1tl sokeria", "1/4tl suolaa"],
       "budjetti" : "€€"
     },
@@ -51,7 +51,7 @@
       "id": 207,
       "name" : "Tonnikalaspagetti",
       "ohje" : "Valuta tonnikaloista öljy suoraan paistinpannulle. Lisää hienonnetut valkosipulit ja kaprikset pannulle. Kuumenna miedolla lämmöllä muutama minuutti. Lisää sitruunan kuoriraaste, mehu sekä mausteet. Lisää lopuksi vielä tonnikalat ja kuumenna. Keitä pasta pakkauksen ohjeen mukaan. Lisää tonnikalakastike kuuman pastan joukkoon ja lisää lopuksi revitty rucola. Tarjoa pasta halutessasi parmesaaniraasteen kanssa.",
-      "valmistusaika" : "15-30min",
+      "valmistusaika" : "20",
       "ainekset" : ["2 tlk tonnikalaa öljyssä", "2 valkosipulinkynttä", "1prk kapriksia", "1rkl sitruunankuorta", "1 rkl sitruunamehua", "1/4 tl suolaa", "1/4tl mustapippuria", "400g spagettia"],
       "budjetti" : "€€"
     },
@@ -59,7 +59,7 @@
       "id": 208,
       "name" : "Ruiskalaburgerit",
       "ohje" : "Kuumenna jäiset kalapihvit rasvassa pannulla miedolla lämmöllä 5–7 minuuttia tai uunissa 225 asteessa 15–20 minuuttia. Viipaloi tomaatti, revi jääsalaatti. Paahda leivät. Sekoita kastike jogurtista, kurkkusalaatista ja ruohosipulista. Kokoa hampurilaiset, lisäämällä pihvit ja kastike sämpylöiden väliin, ja tarjoa heti.",
-      "valmistusaika" : "15-30min",
+      "valmistusaika" : "30",
       "ainekset" : ["200g kalapihvejä", "1 iso tomaatti", "100g jääsalaattia", "4 ruisleipää", "1tlk turkkilaista jogurttia", "1/2dl kurkkusalaattia", "2 rkl ruohosipulia"],
       "budjetti" : "€€"
     },
@@ -67,7 +67,7 @@
       "id": 209,
       "name" : "Lohitacot",
       "ohje" : "Paista lohi pannulla kypsäksi molemmin puolin. Lämmitä tortillat paistinpannulla. Levitä tortilloiden pohjalle ranskankermaa, revi lohi reilun kokoisiksi paloiksi ja jaa tortilloille. Lusikoi päälle juustokuutiota ja viipaloitu mango, koristele halutessasi chiliviipaleilla ja korianterilla.",
-      "valmistusaika" : "15-30min",
+      "valmistusaika" : "30",
       "ainekset" : ["100g salaattijuustokuutioita", "250g mangoa", "1rkl limetinmehua", "1/2dl korianteria", "400g lohta", "1rkl rypsiöljyä", "3/4tl suolaa", "8 maissitortillaa", "1dl ranskankermaa", "1 punainen chili", "tuoretta korianteria"],
       "budjetti" : "€€€"
     },
@@ -75,7 +75,7 @@
       "id": 210,
       "name" : "Kalapizza",
       "ohje" : "Sekoita hienonnettu tilli ja tuorejuusto keskenään. Levitä seos pizzapohjien päälle. Ripottele päälle juustomuru ja kalaviipaleet. Siirrä pizzat yksi kerrallaan uuniin paistumaan esilämmitetylle pizzakivelle tai uunipellille. Kotiuunissa 250–300 asteessa pizza paistuu 3–5 minuutissa, kuumassa pizzauunissa nopeammin. Valuta pizzoille lopuksi oliiviöljyä ja viimeistele tuoreella tillillä, sitruunankuorella ja rouhitulla mustapippurilla.",
-      "valmistusaika" : "30-60min",
+      "valmistusaika" : "60",
       "ainekset" : ["4kpl:tta valmiita pizzapohjia", "180g ruohosipulituorejuustoa", "1dl tuoretta tilliä", "150g pizzajuustoa", "150g kalaa, esim. lohta, muikkua, särkeä", "4tl oliiviöljyä", "sitruunankuorta", "mustapippuria"],
       "budjetti" : "€€€"
     }
