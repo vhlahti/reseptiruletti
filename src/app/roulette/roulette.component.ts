@@ -49,84 +49,46 @@ export class RouletteComponent implements OnInit {
 
   console.log(this.rouletteForm.value);
 
-  if (this.rouletteForm.value.roulette === 'meat')
-  {
+  // filter recipes by id starting number
+  // choose a random id from the value's recipe pool and save it as randomId
 
-    // look through all the recipes and find those that correspond chosen value
-    // choose a random id from the value's recipe pool and save it as randomId
+  let startingNumber: string;
+  switch (this.rouletteForm.value.roulette) {
+    case 'meat':
+      startingNumber = '1';
+      break;
+    case 'fish':
+      startingNumber = '2';
+      break;
+    case 'vege':
+      startingNumber = '3';
+      break;
+    case 'vegan':
+      startingNumber = '4';
+      break;
+  }
+  
+  this.recipes.pipe(
+    map(items => items.filter(item => item.id.toString().startsWith(startingNumber))),
+    map(filteredItems => {
+      const randomIndex = Math.floor(Math.random() * filteredItems.length);
+      return filteredItems[randomIndex].id;
+    })
+  ).subscribe(randomId => {
+    this.randomId = randomId;
+    console.log(randomId);
 
-    this.recipes.pipe(
-      map(items => items.filter(item => item.id.toString().startsWith("1"))),
-      map(filteredItems => {
-        const randomIndex = Math.floor(Math.random() * filteredItems.length);
-        return filteredItems[randomIndex].id;
-      })
-    ).subscribe(randomId => {
-      this.randomId = randomId;
-      console.log(randomId);
+  // extract the referenced id object (recipe) and save it as chosenRecipe
 
-    // extract the referenced id object (recipe) and save it as chosenRecipe
+  this.chosenRecipe = this.recipes.pipe(
+    map(items => items.filter(item => item.id === randomId))
+  );
 
-    this.chosenRecipe = this.recipes.pipe(
-      map(items => items.filter(item => item.id === randomId))
-    );
+  // subscribe to the chosenRecipe observable to retrieve the recipe
 
-    // subscribe to the chosenRecipe observable to retrieve the recipe
-
-    this.chosenRecipe.subscribe(recipes => console.log(recipes));
+  this.chosenRecipe.subscribe(recipes => console.log(recipes));
 
   });
   }
-  if (this.rouletteForm.value.roulette === 'fish')
-  {
-    this.recipes.pipe(
-      map(items => items.filter(item => item.id.toString().startsWith("2"))),
-      map(filteredItems => {
-        const randomIndex = Math.floor(Math.random() * filteredItems.length);
-        return filteredItems[randomIndex].id;
-      })
-    ).subscribe(randomId => {
-      this.randomId = randomId;
-      console.log(randomId);
-      this.chosenRecipe = this.recipes.pipe(
-        map(items => items.filter(item => item.id === randomId))
-      );
-      this.chosenRecipe.subscribe(recipes => console.log(recipes));
-    });
-  }
-  if (this.rouletteForm.value.roulette === 'vege')
-  {
-    this.recipes.pipe(
-      map(items => items.filter(item => item.id.toString().startsWith("3"))),
-      map(filteredItems => {
-        const randomIndex = Math.floor(Math.random() * filteredItems.length);
-        return filteredItems[randomIndex].id;
-      })
-    ).subscribe(randomId => {
-      this.randomId = randomId;
-      console.log(randomId);
-      this.chosenRecipe = this.recipes.pipe(
-        map(items => items.filter(item => item.id === randomId))
-      );
-      this.chosenRecipe.subscribe(recipes => console.log(recipes));
-    });
-  }
-  if (this.rouletteForm.value.roulette === 'vegan')
-  {
-    this.recipes.pipe(
-      map(items => items.filter(item => item.id.toString().startsWith("4"))),
-      map(filteredItems => {
-        const randomIndex = Math.floor(Math.random() * filteredItems.length);
-        return filteredItems[randomIndex].id;
-      })
-    ).subscribe(randomId => {
-      this.randomId = randomId;
-      console.log(randomId);
-      this.chosenRecipe = this.recipes.pipe(
-        map(items => items.filter(item => item.id === randomId))
-      );
-      this.chosenRecipe.subscribe(recipes => console.log(recipes));
-    });
-  }
-  }
+
 }
