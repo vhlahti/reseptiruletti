@@ -3,7 +3,7 @@
       "id" : 301,
       "name" : "Kanttarellikastike",
       "ohje" : "Pidä puhtaita sieniä kuumalla pannulla kunnes neste haihtuu. Lisää voi ja sipuli hienonnettuna. Kypsennä hetki. Lisää vehnäjauhot ja kerma ja sekoita tasaiseksi. Kypsennä hetki vielä ja sekoita tasaiseksi. Tarjoile esimerkiksi keitettyjen perunoiden kanssa.",
-      "valmistusaika" : "15min",
+      "valmistusaika" : "15",
       "ainekset" : ["1l tuoreita kanttarelleja", "2rkl voita", "1 sipuli", "3rkl vehnäjauhoja", "1,5dl ruokakermaa", "suolaa ja pippuria"],
       "budjetti" : "€€"
     },
@@ -11,7 +11,7 @@
       "id" : 302,
       "name" : "Kasvislasagne",
       "ohje" : "Levitä voidellun suorakaiteisen vuoan pohjalle juustokastiketta, tämän päälle lasagnelevyjä ja lopuksi 1/3 tai 1/4 osa tomaattikastiketta. Jatka kokoamista samassa järjestyksessä, kolme tai neljä kerrosta. Lopuksi ripottele pinnalle juustoraastetta. Paista lasagnea 200 asteessa 30-40 minuuttia. Tarjoa tuoreiden kasvisten ja vaikkapa raejuuston kanssa.",
-      "valmistusaika" : "30-60min",
+      "valmistusaika" : "45",
       "ainekset" : ["lasagnelevyjä", "tomaattikastike", "juustokastike", "juustoraastetta"],
       "budjetti" : "€€"
     },
@@ -19,8 +19,64 @@
       "id" : 303,
       "name" : "Pinaattikeitto",
       "ohje" : "Sulata rasva paksupohjaisessa kattilassa. Lisää vehnäjauhot ja sekoita hetken, älä anna ruskistua. Lisää maito koko ajan sekoittaen. Anna kiehahtaa. Lisää pinaatti ja anna kiehua hetken hiljalleen. Tarjoa keitettyjen kananmunan puolikkaiden kera.",
-      "valmistusaika" : "15-30min",
+      "valmistusaika" : "15",
       "ainekset" : ["3rkl voita", "0,75dl vehnäjauhoja", "1l maitoa", "150g pakastepinaattia", "1tl suolaa", "kananmunia"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 304,
+      "name" : "Pinaattitortellinipannu",
+      "ohje" : "Kuumenna öljy paistinpannussa, lisää viipaloidut sienet ja paista ruskeiksi. Lisää valkosipuli ja paista vielä hetki. Alenna lämpöä ja kaada pannulle ruokakerma. Huuhtele tölkki vedellä ja lisää pannulle myös vesi, pinaatti ja tortellonit. Sekoita, ja anna hautua kannen alla noin 5 minuuttia. Mausta kastike parmesaaniraasteella, sitruunanmehulla, suolalla ja pippurilla. Viimeistele annokset parmesaaniraasteella.",
+      "valmistusaika" : "30",
+      "ainekset" : ["200g herkkusieniä", "2 valkosipulinkynttä", "2rkl oliiviöljyä", "2dl ruokakermaa", "250g ricotta-pinaattitortelloneja", "1dl raastettua parmesaania", "1rkl sitruunamehua"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 305,
+      "name" : "Feta-pastasalaatti",
+      "ohje" : "Keitä pasta suolalla maustetussa vedessä. Huuhtele kylmässä vedessä. Sekoita öljy, appelsiinimehu ja etikka, sinappi keskenään ja sekoita pastan joukkoon. Pane jääkaappiin tekeytymään pariksi tunniksi. Lisää feta ja babypinaatti marinoidun pastan joukkoon. Raasta päälle halutessasi mustapippuria ja tarjoa salaatti balsamietikkakastikkeen kanssa.",
+      "valmistusaika" : "30",
+      "ainekset" : ["400g pennepastaa", "3/4dl rypsiöljyä", "1/2dl appelsiinimehua", "1rkl omenaviinietikkaa", "1tl sinappia", "200g fetajuustoa", "1ps babypinaattia", "balsamietikkakastiketta"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 306,
+      "name" : "Lämpimät mozzarellaleivät",
+      "ohje" : "Viipaloi mozzarellat ja tomaatit. Voitele leipäviipaleet pestolla. Täytä leivät mozzarellalla, tomaatilla, rucolalla ja basilikalla. Paista leipiä pannulla öljyssä molemmin puolin muutaman minuutin ajan, kunnes ne saavat hieman väriä ja mozzarella alkaa hieman sulaa. Halkaise leivät halutessasi puoliksi.",
+      "valmistusaika" : "15",
+      "ainekset" : ["200g mozzarellaa", "2 tomaattia", "8 viipaletta paahtoleipää", "4rkl vihreää pestoa", "1/4ps rucolaa ja basilicaa", "1rkl rypsiöljyä"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 307,
+      "name" : "Kantarellipizza",
+      "ohje" : "Paista kuutioidut sienet kuivalla pannulla noin 10 minuuttia, kunnes enin neste on haihtunut. Mausta sienet suolalla ja pippurilla. Valmista ranskankermakastike, sekoittamalla parmesaani-mozzarellaraaste ranskankermaan. Levitä pizzapohjille ranskankermakastiketta, kantarelleja ja punasipulisuikaleita. Pirskota hieman oliiviöljyä päälle. Paista 275-asteisessa uunissa 8–10 minuuttia. Viimeistele pizzat tuoreella basilikalla.",
+      "valmistusaika" : "60",
+      "ainekset" : ["4kpl pizzataikinaa", "300g kantarelleja", "1 punasipuli", "2prk ranskankermaa", "80g parmesaani-mozzarellajuustoraastetta", "1/4tl mustapippuria", "tuoretta basilikaa", "oliiviöljyä"],
+      "budjetti" : "€€"
+    },
+    {
+      "id" : 308,
+      "name" : "Punajuuripasta",
+      "ohje" : "Pyörittele punajuurilohkot ja valkosipulinkynnet öljyssä. Mausta suolalla ja pippurilla. Paahda 200-asteisessa uunissa leivinpaperin päällä pellillä 45–50 minuuttia, kunnes punajuuret ovat pehmenneet. Keitä pasta suolalla maustetussa vedessä pakkauksen ohjeen mukaan. Valuta pasta, ota desilitra keitinvettä talteen. Lisää öljy pastan joukkoon. Pane paahdetut punajuuret, valkosipulit ja keitinvesi tehosekoittimeen ja soseuta. Mausta sose hunajalla. Sekoita punajuurisose pastan joukkoon ja murustele feta pastan päälle. Viimeistele rucolalla ja tarjoa heti.",
+      "valmistusaika" : "60",
+      "ainekset" : ["500g punajuuria", "2 valkosipulinkynttä", "1rkl oliiviöljyä", "1/4tl suolaa", "1/4tl mustapippuria", "350g pastaa", "1tl oliiviöljyä", "1tl hunajaa", "200g fetajuustoa", "65g rucolaa"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 309,
+      "name" : "Ananas-riisicurry",
+      "ohje" : "Kuori ja hienonna sipuli. Halkaise, puhdista ja kuutioi paprika. Kuullota sipulit öljyssä kattilassa. Lisää paprikakuutiot ja kaikki mausteet. Sekoita hetki. Lisää riisi kattilaan. Kaada joukkoon vesi, ananastölkin liemi ja soijakastike. Anna kiehua kannen alla noin 10 minuuttia. Lisää lopuksi ananaspalat, ja suolapähkinät. Kuumenna. Tarjoa raikkaan salaatin ja leivän kanssa.",
+      "valmistusaika" : "20",
+      "ainekset" : ["1 sipuli", "1 punainen paprika", "2rkl öljyä", "3tl garam masala-mausteseosta", "2tl currya", "1tl paprikajauhetta", "1tl suolaa", "3dl jasmiiniriisiä", "2rkl soijakastiketta", "1tlk ananaspaloja", "1dl suolapähkinöitä"],
+      "budjetti" : "€"
+    },
+    {
+      "id" : 310,
+      "name" : "Täytetyt uunibataatit",
+      "ohje" : "Pistele pestyt bataatit haarukalla, ja kypsennä leivinpaperin päällä pellillä 200-asteisessa uunissa noin 50 minuuttia kypsäksi. Valmista täyte yhdistämällä valutetut kikherneet, vuohenjuusto sekä ranskankerma. Mausta currytahnalla. Tee ristiviillot bataattien pintaan ja koverra bataattien sisusta haarukalla. Lisää täyte bataattien pinnalle.",
+      "valmistusaika" : "60",
+      "ainekset" : ["6kpl bataatteja", "365g vuohenjuustoa", "1tlk kikherneitä", "150g ranskankermaa", "2rkl currytahnaa"],
       "budjetti" : "€"
     }
   ]
