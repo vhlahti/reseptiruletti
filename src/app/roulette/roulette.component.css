@@ -5,16 +5,17 @@
     padding-bottom: 1rem;
 }
 .roulette h3 {
+    font-weight: bold;
     text-align: center;
-    margin: 0.5rem 0rem 0rem 0rem;
+    margin: 1rem 0rem 0rem 0rem;
 }
 .rouletteBoxes {
-    padding: 1rem;
+    padding: .6rem 0;
     display: flex;
     justify-content: center;
 }
 label {
-    font-size: 1.0rem;
+    font-size: 1rem;
 }
 .rouletteButton {
     display: flex;
