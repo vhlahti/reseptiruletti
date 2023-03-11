@@ -16,6 +16,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { DataService } from './data.service';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatCardModule } from '@angular/material/card';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MatCardModule } from '@angular/material/card';
     ReactiveFormsModule,
     HttpClientModule,
     MatSlideToggleModule,
-    MatCardModule
+    MatCardModule,
+    MatSnackBarModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

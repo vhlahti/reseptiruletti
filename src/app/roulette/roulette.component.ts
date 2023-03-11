@@ -3,6 +3,7 @@ import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs';
 import { DataService } from '../data.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-roulette',
@@ -21,7 +22,8 @@ export class RouletteComponent implements OnInit {
   rouletteForm: FormGroup;
 
   constructor(private dataService: DataService,
-              public fb: FormBuilder) {
+              public fb: FormBuilder,
+              private snackBar: MatSnackBar) {
     this.rouletteForm = fb.group({
       roulette: ['', Validators.required],
       budget: ['', Validators.required]
@@ -42,10 +44,12 @@ export class RouletteComponent implements OnInit {
     };
   }
 
-  // button handler
+  // form button handler
   // the function filters the recipes and extracts the chosen content into chosenRecipe array
 
   onSubmit() {
+
+  if (this.rouletteForm.valid) {
 
   // log which value (meat/fish/vege/vegan) user selected
 
@@ -107,6 +111,14 @@ export class RouletteComponent implements OnInit {
 
   });
   }
+
+  // if form submit fails, launch snackbar
+
+  else {
+    this.showSnackbar();
+  }
+
+  }
   
   // get a random recipe from the whole recipe database
 
@@ -146,6 +158,15 @@ export class RouletteComponent implements OnInit {
     else {
       this.rouletteForm.reset();
     }
+  }
+
+  // snackbar message if required forms fields haven't been filled
+
+  showSnackbar() {
+    this.snackBar.open('Valitse ruokavalio ja budjetti ensin, ole hyvä.', 'Sulje', {
+      duration: 4000,
+      verticalPosition: 'bottom'
+    });
   }
 
 }
